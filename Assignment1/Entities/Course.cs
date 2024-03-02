@@ -15,7 +15,7 @@ namespace Assignment1.Entities
 
         public override string ToString()
         {
-            return $"Code: {Code} \nName: {Name} \n{Description}";
+            return $"\n{Code} | {Name} \nDescription: {Description}";
         }
     }
 }

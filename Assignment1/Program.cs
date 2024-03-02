@@ -38,13 +38,13 @@ internal class Program
                     courseHelper.ListCourses();
                     break;
                 case 6:
-                    FindCourse(courseList);
+                    courseHelper.FindCourse();
                     break;
                 case 7:
                     personHelper.ListPersons();
                     break;
                 case 8:
-                    FindStudent(studentList);
+                    personHelper.FindPerson();
                     break;
                 case 9:
                     StudentCourses(courseList, studentList);
@@ -89,33 +89,6 @@ internal class Program
             return 0;
         }
         
-    }
-    static void CreateCourse()
-    {
-        string name, code, description;
-
-        Console.WriteLine("\nEnter the Course's Code: ");
-        code = Console.ReadLine() ?? "";
-        Console.WriteLine("\nEnter the Course's Name: ");
-        name = Console.ReadLine() ?? "";
-        Console.WriteLine("\nEnter the Course's Description: ");
-        description = Console.ReadLine() ?? "";
-
-        Course myCourse = new Course { Code = code, Name = name, Description = description };
-
-        CourseService.Current.Add(myCourse);
-    }
-    static void CreateStudent()
-    {
-        string name, classification;
-        Console.WriteLine("\nEnter the Student's Name: ");
-        name = Console.ReadLine() ?? "";
-        Console.WriteLine("\nEnter the Student's Classification: ");
-        classification = Console.ReadLine() ?? "";
-
-        Person student = new Person { Name = name, Classification = classification };
-
-        PersonService.Current.Add(student);
     }
     static void AddToRoster(List<Person> studentList, List<Course> courseList)
     {
@@ -311,31 +284,6 @@ internal class Program
         Console.WriteLine("\nList of all Students: ");
         int count = 0;
         PersonService.Current.Persons.ToList().ForEach(c => Console.WriteLine($"{++count}. {c}"));
-    }
-    static void FindStudent(List<Person> studentList)
-    {
-        string name, classification;
-        bool flag = false;
-        do
-        {
-            Console.WriteLine("\nStudent's Name you wish to search for: ");
-            name = Console.ReadLine() ?? "";
-
-        } while (name == "");
-
-        foreach (Person s in studentList)
-        {
-            if (s.Name == name)
-            {
-                flag = true;
-                Console.WriteLine("Found: " + s);
-            }
-        }
-
-        if (!flag)
-        {
-            Console.WriteLine("No Student Found!");
-        }
     }
     static void StudentCourses(List<Course> courseList, List<Person> studentList)
     {

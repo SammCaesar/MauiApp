@@ -41,6 +41,23 @@ namespace Assignment1.Helpers
 
             personSvc.Persons.ToList().ForEach(Console.WriteLine);
         }
+
+        public  void FindPerson()
+        {
+            Console.WriteLine("\nPerson's Name you wish to search for: ");
+            var name = Console.ReadLine();
+
+            var myPerson = personSvc.Persons.Where(p => p.Name == name).FirstOrDefault();
+
+            if (myPerson != null)
+            {
+                Console.WriteLine("\nPerson Found: \n" + myPerson);
+            }
+            else
+            {
+                Console.WriteLine("\nNo Person Found!");
+            }
+        }
     }
 }
 
