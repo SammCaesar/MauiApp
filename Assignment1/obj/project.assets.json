@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Assignment1/Assignment1.csproj",
+      "projectUniqueName": "/Users/samueliturra/Desktop/FSU School/MauiApp/Assignment1/Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Assignment1/Assignment1.csproj",
+      "projectPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Assignment1/Assignment1.csproj",
       "packagesPath": "/Users/samueliturra/.nuget/packages/",
-      "outputPath": "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Assignment1/obj/",
+      "outputPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Assignment1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samueliturra/.nuget/NuGet/NuGet.Config"

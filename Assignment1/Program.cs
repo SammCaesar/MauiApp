@@ -1,11 +1,15 @@
 ﻿using Assignment1.Entities;
 using Assignment1.Services;
+using Assignment1.Helpers;
 namespace Assignment1;
 
 internal class Program
 {
     static void Main(string[] args)
     {
+        var courseHelper = new CourseHelper();
+        var personHelper = new PersonHelper();
+
         List<Person> studentList = new();
         List<Course> courseList = new();
         bool exit = false;
@@ -19,10 +23,10 @@ internal class Program
                     Console.WriteLine("\nError you entered invalid input! Try Again!");
                     break;
                 case 1:
-                    CreateCourse();
+                    courseHelper.AddCourse();
                     break;
                 case 2:
-                    CreateStudent();
+                    personHelper.AddPerson();
                     break;
                 case 3:
                     AddToRoster(studentList, courseList);
@@ -31,13 +35,13 @@ internal class Program
                     RemoveStudent(studentList, courseList);
                     break;
                 case 5:
-                    ListCourses(courseList);
+                    courseHelper.ListCourses();
                     break;
                 case 6:
                     FindCourse(courseList);
                     break;
                 case 7:
-                    ListStudents(studentList);
+                    personHelper.ListPersons();
                     break;
                 case 8:
                     FindStudent(studentList);
@@ -99,7 +103,7 @@ internal class Program
 
         Course myCourse = new Course { Code = code, Name = name, Description = description };
 
-        CourseService.Current.AddCourse(myCourse);
+        CourseService.Current.Add(myCourse);
     }
     static void CreateStudent()
     {
@@ -111,7 +115,7 @@ internal class Program
 
         Person student = new Person { Name = name, Classification = classification };
 
-        PersonService.Current.AddPerson(student);
+        PersonService.Current.Add(student);
     }
     static void AddToRoster(List<Person> studentList, List<Course> courseList)
     {
@@ -231,6 +235,7 @@ internal class Program
         {
             Console.WriteLine("Code: " + course.Code + " Name: " + course.Name);
         }
+
     }
     static void FindCourse(List<Course> courseList)
     {

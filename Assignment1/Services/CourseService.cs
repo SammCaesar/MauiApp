@@ -1,6 +1,4 @@
-﻿using System;
-using System.Xml.Linq;
-using Assignment1.Entities;
+﻿using Assignment1.Entities;
 
 namespace Assignment1.Services
 {
@@ -49,12 +47,12 @@ namespace Assignment1.Services
 			return Courses;
 		}
 
-		public void AddCourse(Course myCourse)
+		public void Add(Course myCourse)
 		{
 			courses.Add(myCourse);
         }
 
-        public void RemoveCourse(Course myCourse)
+        public void Remove(Course myCourse)
         {
             courses.Remove(myCourse);
         }

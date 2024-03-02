@@ -46,12 +46,12 @@ namespace Assignment1.Services
             return Persons;
         }
 
-        public void AddPerson(Person myPerson)
+        public void Add(Person myPerson)
         {
             persons.Add(myPerson);
         }
 
-        public void RemovePerson(Person myPerson)
+        public void Remove(Person myPerson)
         {
             persons.Remove(myPerson);
         }
