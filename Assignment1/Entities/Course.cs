@@ -3,6 +3,8 @@ namespace Assignment1.Entities
 {
 	public class Course
 	{
+        public Guid ID { get; }
+        public Guid PersonID { get; set; }
 		public string Code { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }

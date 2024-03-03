@@ -44,34 +44,17 @@ namespace Assignment1.Helpers
         {
             Console.WriteLine("\nList of All Courses: ");
 
-            courseSvc.Courses.ToList().ForEach(Console.WriteLine);
+            CourseService.Current.Courses.ToList().ForEach(Console.WriteLine);
         }
 
         public void FindCourse()
         {
-            string input;
             Course? myCourse;
 
-            Console.WriteLine("\nName or Description (N/D): ");
-            input = Console.ReadLine() ?? "";
+            Console.WriteLine("\nSearch for Course: ");
+            var input = Console.ReadLine();
 
-
-            switch(input.ToUpper())
-            {
-                case "N":
-                    Console.WriteLine("\nSearch for Course: ");
-                    var name = Console.ReadLine();
-                    myCourse = courseSvc.Courses.Where(c => c.Name == name).FirstOrDefault();
-                    break;
-                case "D":
-                    Console.WriteLine("\nSearch for Course: ");
-                    var desc = Console.ReadLine();
-                    myCourse = courseSvc.Courses.Where(c => c.Description == desc).FirstOrDefault();
-                    break;
-                default:
-                    myCourse = null;
-                    break;
-            }
+            myCourse = courseSvc.Search(input).FirstOrDefault();
 
             if (myCourse != null)
             {

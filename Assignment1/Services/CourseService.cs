@@ -30,8 +30,8 @@ namespace Assignment1.Services
 			{
 				return courses.Where(
 					c =>
-						c.Name.ToUpper().Contains(query ?? string.Empty)
-						|| c.Description.ToUpper().Contains(query ?? string.Empty));
+						c.Name.ToUpper().Contains(query.ToUpper() ?? string.Empty)
+						|| c.Description.ToUpper().Contains(query.ToUpper() ?? string.Empty));
 			}
 		}
 
@@ -40,10 +40,14 @@ namespace Assignment1.Services
 			courses = new List<Course>();
 		}
 
-		public IEnumerable<Course> Search(string query)
+        public IEnumerable<Course> GetByPerson(Guid personId)
+        {
+            return courses.Where(p => p.PersonID == personId);
+        }
+
+        public IEnumerable<Course> Search(string query)
 		{
 			this.query = query;
-
 			return Courses;
 		}
 

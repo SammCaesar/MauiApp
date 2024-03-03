@@ -30,7 +30,7 @@ namespace Assignment1.Services
             {
                 return persons.Where(
                     c =>
-                        c.Name.ToUpper().Contains(query ?? string.Empty));
+                        c.Name.ToUpper().Contains(query.ToUpper() ?? string.Empty));
             }
         }
 
@@ -42,7 +42,6 @@ namespace Assignment1.Services
         public IEnumerable<Person> Search(string query)
         {
             this.query = query;
-
             return Persons;
         }
 

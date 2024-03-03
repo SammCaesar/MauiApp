@@ -39,7 +39,7 @@ namespace Assignment1.Helpers
         {
             Console.WriteLine("\nList of All Persons: ");
 
-            personSvc.Persons.ToList().ForEach(Console.WriteLine);
+            PersonService.Current.Persons.ToList().ForEach(Console.WriteLine);
         }
 
         public  void FindPerson()
@@ -47,7 +47,7 @@ namespace Assignment1.Helpers
             Console.WriteLine("\nPerson's Name you wish to search for: ");
             var name = Console.ReadLine();
 
-            var myPerson = personSvc.Persons.Where(p => p.Name == name).FirstOrDefault();
+            var myPerson = personSvc.Search(name).FirstOrDefault();
 
             if (myPerson != null)
             {
