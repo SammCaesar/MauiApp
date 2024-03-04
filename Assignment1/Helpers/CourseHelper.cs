@@ -8,8 +8,9 @@ namespace Assignment1.Helpers
 	public class CourseHelper
 	{
 		private CourseService courseSvc = CourseService.Current;
+        private PersonService personSvc = PersonService.Current;
 
-		public void AddCourse()
+        public void AddCourse()
 		{
             string name, code, description;
 

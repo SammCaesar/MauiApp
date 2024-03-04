@@ -44,7 +44,19 @@ namespace Assignment1.Services
 
         public void Add(Person myPerson)
         {
+            if (myPerson.ID == 0)
+            {
+                myPerson.ID = LastId + 1;
+            }
             persons.Add(myPerson);
+        }
+
+        private int LastId
+        {
+            get
+            {
+                return Persons.Any() ? Persons.Select(p => p.ID).Max() : 0;
+            }
         }
 
         public void Remove(Person myPerson)

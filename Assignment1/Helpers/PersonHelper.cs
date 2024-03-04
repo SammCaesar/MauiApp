@@ -1,11 +1,13 @@
 ﻿using System;
 using Assignment1.Services;
 using Assignment1.Entities;
+
 namespace Assignment1.Helpers
 {
 	public class PersonHelper
 	{
         private PersonService personSvc = PersonService.Current;
+        private CourseService courseSvc = CourseService.Current;
 
         public void AddPerson()
         {

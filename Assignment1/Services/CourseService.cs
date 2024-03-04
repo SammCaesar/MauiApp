@@ -36,9 +36,9 @@ namespace Assignment1.Services
 			courses = new List<Course>();
 		}
 
-        public IEnumerable<Course> GetByPerson(Guid personId)
+        public Course? GetByID(int Id)
         {
-            return courses.Where(p => p.PersonID == personId);
+			return Courses.FirstOrDefault(p => p.ID == Id);
         }
 
         public IEnumerable<Course> Search(string query)
@@ -50,7 +50,19 @@ namespace Assignment1.Services
 
 		public void Add(Course myCourse)
 		{
-			courses.Add(myCourse);
+            if (myCourse.ID == 0)
+            {
+                myCourse.ID = LastId + 1;
+            }
+            courses.Add(myCourse);
+        }
+
+        private int LastId
+        {
+            get
+            {
+                return Courses.Any() ? Courses.Select(c => c.ID).Max() : 0;
+            }
         }
 
         public void Remove(Course myCourse)

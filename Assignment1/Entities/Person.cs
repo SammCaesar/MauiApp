@@ -3,7 +3,7 @@ namespace Assignment1.Entities
 {
 	public class Person
 	{
-        public Guid ID { get; set; }
+        public int ID { get; set; }
 		public string Name { get; set; }
         public string Classification { get; set; }
         public List<int> Grades = new();
