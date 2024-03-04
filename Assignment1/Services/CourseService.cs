@@ -6,7 +6,6 @@ namespace Assignment1.Services
 	{
 		private IList<Course> courses;
 
-		private string? query;
 		private static object _lock = new object();
 		private static CourseService? instance;
 		public static CourseService Current
@@ -28,10 +27,7 @@ namespace Assignment1.Services
 		{
 			get
 			{
-				return courses.Where(
-					c =>
-						c.Name.ToUpper().Contains(query.ToUpper() ?? string.Empty)
-						|| c.Description.ToUpper().Contains(query.ToUpper() ?? string.Empty));
+				return courses ?? new List<Course>();
 			}
 		}
 
@@ -47,9 +43,10 @@ namespace Assignment1.Services
 
         public IEnumerable<Course> Search(string query)
 		{
-			this.query = query;
-			return Courses;
-		}
+            return Courses.Where(c =>
+			c.Name.ToUpper().Contains(query.ToUpper())
+			|| c.Description.ToUpper().Contains(query.ToUpper()));
+        }
 
 		public void Add(Course myCourse)
 		{

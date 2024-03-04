@@ -50,10 +50,10 @@ internal class Program
                     StudentCourses(courseList, studentList);
                     break;
                 case 10:
-                    UpdateCourse(courseList);
+                    courseHelper.UpdateCourse();
                     break;
                 case 11:
-                    UpdateStudent(studentList);
+                    personHelper.UpdatePerson();
                     break;
                 case 12:
                     CreateAssignment(courseList);

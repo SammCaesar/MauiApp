@@ -20,6 +20,26 @@ namespace Assignment1.Helpers
             personSvc.Add(student);
         }
 
+        public void UpdatePerson()
+        {
+            int count = 0;
+            Console.WriteLine("Choose number out of all courses: ");
+            PersonService.Current.Persons.ToList().ForEach(c => Console.WriteLine($"{++count}. {c}"));
+
+            var choice = Console.ReadLine();
+
+            if (int.TryParse(choice, out int intChoice))
+            {
+                var myPerson = PersonService.Current.Persons.ElementAt(intChoice-1);
+
+                Console.WriteLine("What is the new Name?");
+                myPerson.Name = Console.ReadLine();
+
+                Console.WriteLine("What is the new Classification?");
+                myPerson.Classification = Console.ReadLine();
+            }
+        }
+
         public void RemovePerson()
         {
             int count = 0;
@@ -39,7 +59,7 @@ namespace Assignment1.Helpers
         {
             Console.WriteLine("\nList of All Persons: ");
 
-            PersonService.Current.Persons.ToList().ForEach(Console.WriteLine);
+            personSvc.Persons.ToList().ForEach(Console.WriteLine);
         }
 
         public  void FindPerson()

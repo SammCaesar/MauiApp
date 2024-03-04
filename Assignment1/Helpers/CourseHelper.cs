@@ -25,6 +25,26 @@ namespace Assignment1.Helpers
             courseSvc.Add(myCourse);
         }
 
+        public void UpdateCourse()
+        {
+            int count = 0;
+            Console.WriteLine("Choose number out of all courses: ");
+            CourseService.Current.Courses.ToList().ForEach(c => Console.WriteLine($"{++count}. {c}"));
+
+            var choice = Console.ReadLine();
+
+            if (int.TryParse(choice, out int intChoice))
+            {
+                Course myCourse = CourseService.Current.Courses.ElementAt(intChoice-1);
+
+                Console.WriteLine("What is the new Name?");
+                myCourse.Name = Console.ReadLine();
+
+                Console.WriteLine("What is the new Description?");
+                myCourse.Description = Console.ReadLine();
+            }
+        }
+
         public void RemoveCourse()
         {
             int count = 0;
@@ -44,7 +64,7 @@ namespace Assignment1.Helpers
         {
             Console.WriteLine("\nList of All Courses: ");
 
-            CourseService.Current.Courses.ToList().ForEach(Console.WriteLine);
+            courseSvc.Courses.ToList().ForEach(Console.WriteLine);
         }
 
         public void FindCourse()

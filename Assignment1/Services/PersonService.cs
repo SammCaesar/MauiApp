@@ -6,7 +6,6 @@ namespace Assignment1.Services
 	{
         private IList<Person> persons;
 
-        private string? query;
         private static object _lock = new object();
         private static PersonService? instance;
         public static PersonService Current
@@ -28,9 +27,7 @@ namespace Assignment1.Services
         {
             get
             {
-                return persons.Where(
-                    c =>
-                        c.Name.ToUpper().Contains(query.ToUpper() ?? string.Empty));
+                return persons ?? new List<Person>();
             }
         }
 
@@ -41,8 +38,8 @@ namespace Assignment1.Services
 
         public IEnumerable<Person> Search(string query)
         {
-            this.query = query;
-            return Persons;
+            return Persons.Where(c =>
+                c.Name.ToUpper().Contains(query.ToUpper()));
         }
 
         public void Add(Person myPerson)
