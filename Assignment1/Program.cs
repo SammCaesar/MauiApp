@@ -10,8 +10,6 @@ internal class Program
         var courseHelper = new CourseHelper();
         var personHelper = new PersonHelper();
 
-        List<Person> studentList = new();
-        List<Course> courseList = new();
         bool exit = false;
 
         while (!exit)
@@ -29,10 +27,10 @@ internal class Program
                     personHelper.AddPerson();
                     break;
                 case 3:
-                    AddToRoster(studentList, courseList);
+                    courseHelper.AddToRoster();
                     break;
                 case 4:
-                    RemoveStudent(studentList, courseList);
+                    courseHelper.RemoveFromRoster();
                     break;
                 case 5:
                     courseHelper.ListCourses();
@@ -47,7 +45,7 @@ internal class Program
                     personHelper.FindPerson();
                     break;
                 case 9:
-                    StudentCourses(courseList, studentList);
+                    personHelper.StudentCourses();
                     break;
                 case 10:
                     courseHelper.UpdateCourse();
@@ -56,7 +54,7 @@ internal class Program
                     personHelper.UpdatePerson();
                     break;
                 case 12:
-                    CreateAssignment(courseList);
+                    courseHelper.CreateAssignment();
                     break;
                 case 13:
                     exit = true;
@@ -90,117 +88,6 @@ internal class Program
         }
         
     }
-    static void AddToRoster(List<Person> studentList, List<Course> courseList)
-    {
-        ListStudents(studentList);
-
-        string name, classification;
-        Console.WriteLine("\nWhich student would you like to add from the List of Students?");
-        name = Console.ReadLine() ?? "";
-        Console.WriteLine("\nWhat is the classification of that student?");
-        classification = Console.ReadLine() ?? "";
-
-        Person student = new Person();
-        bool flag = false;
-
-        foreach (Person s in studentList)
-        {
-            if(name == s.Name && classification == s.Classification)
-            {
-                student = s;
-                flag = true;
-            }
-        }
-
-        if (!flag)
-        {
-            Console.WriteLine("\nError: No Student Found!");
-            return;
-        }
-
-        ListCourses(courseList);
-
-        string code;
-        do
-        {
-            Console.WriteLine("\nWhich Class would you like to add the student too? Please give the Course Code.");
-            code = Console.ReadLine() ?? "";
-        } while (code == "");
-
-        bool secondFlag = false;
-        foreach (Course c in courseList)
-        {
-            if(c.Code == code)
-            {
-                c.Roster.Add(student);
-                secondFlag = true;
-            }
-        }
-        if (!secondFlag)
-        {
-            Console.WriteLine("\nError: No Course Found!");
-            return;
-        }
-    }
-    static void RemoveStudent(List<Person> studentList, List<Course> courseList)
-    {
-        ListCourses(courseList);
-
-        string code;
-        do
-        {
-            Console.WriteLine("\nWhich Class would you like to remove the student from? Please give the Course Code.");
-            code = Console.ReadLine() ?? "";
-        } while (code == "");
-
-        bool secondFlag = false;
-        Course course = new();
-        foreach (Course c in courseList)
-        {
-            if (c.Code == code)
-            {
-                course = c;
-                secondFlag = true;
-            }
-        }
-        if (!secondFlag)
-        {
-            Console.WriteLine("\nError: No Course Found!");
-            return;
-        }
-
-        foreach (Person stud in course.Roster)
-        {
-            Console.WriteLine("\n"+stud);
-        }
-
-        string name, classification;
-        do
-        {
-            Console.WriteLine("\nWhich student would you like to remove from the course's roster?");
-            name = Console.ReadLine() ?? "";
-            Console.WriteLine("\nWhat is the classification of that student?");
-            classification = Console.ReadLine() ?? "";
-        } while (name == "" || classification == "");
-
-        int x = -1;
-
-        for (int i = 0; i < course.Roster.Count(); i++)
-        {
-            if (name == course.Roster[i].Name && classification == course.Roster[i].Classification)
-            {
-                x = i;
-            }
-        }
-
-        if (x == -1)
-        {
-            Console.WriteLine("\nError: No Student Found!");
-            return;
-        }
-
-        course.Roster.RemoveAt(x);
-    }
     static void ListCourses(List<Course> courseList)
     {
         Console.WriteLine("\nList of All Courses: ");
@@ -209,58 +96,6 @@ internal class Program
             Console.WriteLine("Code: " + course.Code + " Name: " + course.Name);
         }
 
-    }
-    static void ListStudents(List<Person> studentList)
-    {
-        Console.WriteLine("\nList of all Students: ");
-        int count = 0;
-        PersonService.Current.Persons.ToList().ForEach(c => Console.WriteLine($"{++count}. {c}"));
-    }
-    static void StudentCourses(List<Course> courseList, List<Person> studentList)
-    {
-        ListStudents(studentList);
-        string name, classification;
-        do
-        {
-            Console.WriteLine("\nWhich student would you like to list their courses?");
-            name = Console.ReadLine() ?? "";
-            Console.WriteLine("\nWhat is the classification of that student?");
-            classification = Console.ReadLine() ?? "";
-        } while (name == "" || classification == "");
-
-        Person student = new Person();
-        bool flag = false;
-
-        foreach (Person s in studentList)
-        {
-            if (name == s.Name && classification == s.Classification)
-            {
-                student = s;
-                flag = true;
-            }
-        }
-
-        if (!flag)
-        {
-            Console.WriteLine("\nError: No Student Found!");
-            return;
-        }
-
-        bool nextFlag = false;
-        Console.WriteLine("\n"+ student.Name + " courses are: ");
-        foreach (Course c in courseList)
-        {
-            if(c.Roster.Any<Person>(s => s == student))
-            {
-                nextFlag = true;
-                Console.WriteLine(c);
-            }
-        }
-
-        if (!nextFlag)
-        {
-            Console.WriteLine("No Courses Found.");
-        }
     }
     static void CreateAssignment(List<Course> courseList)
     {

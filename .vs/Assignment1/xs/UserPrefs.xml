@@ -1,21 +1,22 @@
-﻿<Properties StartupConfiguration="{D4991F3A-0C07-41F2-9118-E5599A2C6429}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment1/Services/CourseService.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D4991F3A-0C07-41F2-9118-E5599A2C6429}|Default">
+  <MonoDevelop.Ide.ItemProperties.Assignment1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment1/Helpers/CourseHelper.cs">
     <Files>
-      <File FileName="Assignment1/Program.cs" Line="56" Column="49" />
-      <File FileName="Assignment1/Helpers/PersonHelper.cs" Line="79" Column="10" />
-      <File FileName="Assignment1/Helpers/CourseHelper.cs" Line="66" Column="1" />
-      <File FileName="Assignment1/Services/PersonService.cs" Line="22" Column="18" NotebookId="1" />
-      <File FileName="Assignment1/Services/CourseService.cs" Line="33" Column="1" NotebookId="1" />
+      <File FileName="Assignment1/Helpers/PersonHelper.cs" />
+      <File FileName="Assignment1/Helpers/CourseHelper.cs" Line="57" Column="14" />
+      <File FileName="Assignment1/Services/CourseService.cs" NotebookId="1" />
+      <File FileName="Assignment1/Services/PersonService.cs" NotebookId="1" />
+      <File FileName="Assignment1/Program.cs" Line="106" Column="17" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Assignment1">
-            <Node name="Assignment1">
-              <Node name="Entities" expanded="True" />
-              <Node name="Services">
-                <Node name="CourseService.cs" selected="True" />
+          <Node name="Assignment1" expanded="True">
+            <Node name="Assignment1" expanded="True">
+              <Node name="Helpers" expanded="True">
+                <Node name="CourseHelper.cs" selected="True" />
               </Node>
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -23,12 +24,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/samueliturra/Desktop/FSU School/MauiApp/Assignment1/Services/CourseService.cs" relfile="Assignment1/Services/CourseService.cs" line="31" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assignment1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

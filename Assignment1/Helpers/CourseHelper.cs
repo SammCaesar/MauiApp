@@ -8,7 +8,7 @@ namespace Assignment1.Helpers
 	public class CourseHelper
 	{
 		private CourseService courseSvc = CourseService.Current;
-        private PersonService personSvc = PersonService.Current;
+        private PersonHelper personHelper = new PersonHelper();
 
         public void AddCourse()
 		{
@@ -68,7 +68,7 @@ namespace Assignment1.Helpers
             courseSvc.Courses.ToList().ForEach(Console.WriteLine);
         }
 
-        public void FindCourse()
+        public Course FindCourse()
         {
             Course? myCourse;
 
@@ -85,6 +85,129 @@ namespace Assignment1.Helpers
             {
                 Console.WriteLine("\nNo Course Found!");
             }
+
+            return myCourse;
+        }
+
+        public void AddToRoster()
+        {
+            personHelper.ListPersons();
+
+            Person myPerson = personHelper.FindPerson();
+
+            if (myPerson == null)
+            {
+                return;
+            }
+
+            ListCourses();
+
+            Course myCourse = FindCourse();
+
+            if (myCourse == null)
+            {
+                return;
+            }
+
+            myCourse.Roster.Add(myPerson);
+
+            Console.WriteLine(myPerson.Name + " added to " + myCourse.Name + ".");
+
+            return;
+        }
+
+        public void RemoveFromRoster()
+        {
+            ListCourses();
+
+            Course myCourse = FindCourse();
+
+            if (myCourse == null)
+            {
+                return;
+            }
+
+            foreach (Person stud in myCourse.Roster)
+            {
+                Console.WriteLine("\n" + stud);
+            }
+
+            Console.WriteLine("\nWhich student would you like to remove from the course's roster?");
+            var name = Console.ReadLine();
+
+            int x = -1;
+
+            for (int i = 0; i < myCourse.Roster.Count(); i++)
+            {
+                if (name == myCourse.Roster[i].Name)
+                {
+                    x = i;
+                }
+            }
+
+            if (x == -1)
+            {
+                Console.WriteLine("\nError: No Student Found!");
+                return;
+            }
+
+            myCourse.Roster.RemoveAt(x);
+
+            Console.WriteLine(name + " removed from " + myCourse.Name + ".");
+
+            return;
+        }
+
+        public void CreateAssignment()
+        {
+            bool flag = false;
+            string name, description, dueDate, totalAvailablePoints;
+            DateTime dateDue;
+            int totalAPInt;
+            Assignment assignment = new();
+            do
+            {
+                Console.WriteLine("Enter a name for the assignment: ");
+                name = Console.ReadLine() ?? "";
+                Console.WriteLine("Enter a description for the assignment: ");
+                description = Console.ReadLine() ?? "";
+                Console.WriteLine("Enter the total available points for the assignment: ");
+                totalAvailablePoints = Console.ReadLine() ?? "";
+                Console.WriteLine("Enter the due date for the assingment (dd/MM/yyyy): ");
+                dueDate = Console.ReadLine() ?? "";
+
+                try
+                {
+                    totalAPInt = Convert.ToInt32(totalAvailablePoints);
+                    dateDue = DateTime.Parse(dueDate);
+
+                    assignment.Name = name;
+                    assignment.Description = description;
+                    assignment.TotalAvailablePoints = totalAPInt;
+                    assignment.DueDate = dateDue;
+
+                    flag = true;
+                }
+                catch
+                {
+                    flag = false;
+                }
+            } while (!flag);
+
+            ListCourses();
+
+            Course myCourse = FindCourse();
+
+            if (myCourse == null)
+            {
+                return;
+            }
+
+            myCourse.Assingments.Add(assignment);
+
+            Console.WriteLine("Added assignment to Course.");
+
+            return;
         }
     }
 }

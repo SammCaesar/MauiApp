@@ -64,7 +64,7 @@ namespace Assignment1.Helpers
             personSvc.Persons.ToList().ForEach(Console.WriteLine);
         }
 
-        public  void FindPerson()
+        public Person FindPerson()
         {
             Console.WriteLine("\nPerson's Name you wish to search for: ");
             var name = Console.ReadLine();
@@ -79,6 +79,42 @@ namespace Assignment1.Helpers
             {
                 Console.WriteLine("\nNo Person Found!");
             }
+
+            return myPerson;
+        }
+
+        public void StudentCourses()
+        {
+            ListPersons();
+
+            Person myPerson = FindPerson();
+
+            if (myPerson == null)
+            {
+                return;
+            }
+
+            bool nextFlag = false;
+
+            List<Course> courses = courseSvc.Courses.ToList();
+
+            Console.WriteLine("\n" + myPerson.Name + " courses are: ");
+
+            foreach (Course c in courses)
+            {
+                if (c.Roster.Any<Person>(s => s == myPerson))
+                {
+                    nextFlag = true;
+                    Console.WriteLine(c);
+                }
+            }
+
+            if (!nextFlag)
+            {
+                Console.WriteLine("No Courses Found.");
+            }
+
+            return;
         }
     }
 }
