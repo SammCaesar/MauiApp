@@ -1,21 +1,33 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D4991F3A-0C07-41F2-9118-E5599A2C6429}|Default">
-  <MonoDevelop.Ide.ItemProperties.Assignment1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment1/Helpers/CourseHelper.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F34D8916-CB61-4C08-9670-2B3390C83172}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assignment FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.Library.Assignment FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment/Program.cs">
     <Files>
-      <File FileName="Assignment1/Helpers/PersonHelper.cs" />
-      <File FileName="Assignment1/Helpers/CourseHelper.cs" Line="57" Column="14" />
-      <File FileName="Assignment1/Services/CourseService.cs" NotebookId="1" />
-      <File FileName="Assignment1/Services/PersonService.cs" NotebookId="1" />
-      <File FileName="Assignment1/Program.cs" Line="106" Column="17" NotebookId="1" />
+      <File FileName="Assignment1/Helpers/CourseHelper.cs" />
+      <File FileName="Library.Assignment/Entities/Course.cs" />
+      <File FileName="Library.Assignment/Services/CourseService.cs" />
+      <File FileName="Library.Assignment/Entities/Assignment.cs" />
+      <File FileName="Assignment/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment1" expanded="True">
-            <Node name="Assignment1" expanded="True">
-              <Node name="Helpers" expanded="True">
-                <Node name="CourseHelper.cs" selected="True" />
+            <Node name="Assignment" expanded="True">
+              <Node name="Helpers" expanded="True" />
+            </Node>
+            <Node name="Assignment1" selected="True">
+              <Node name="Helpers" expanded="True" />
+            </Node>
+            <Node name="Library.Assignment" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
               </Node>
+              <Node name="Entities" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
           </Node>
@@ -23,10 +35,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

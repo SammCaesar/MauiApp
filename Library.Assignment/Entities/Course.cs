@@ -3,6 +3,7 @@ namespace Assignment1.Entities
 {
 	public class Course
 	{
+        public int ID { get; set; }
 		public string Code { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
@@ -15,7 +16,7 @@ namespace Assignment1.Entities
 
         public override string ToString()
         {
-            return $"Code: {Code} \nName: {Name} \n{Description}";
+            return $"{Code} | {Name} \nDescription: {Description}";
         }
     }
 }

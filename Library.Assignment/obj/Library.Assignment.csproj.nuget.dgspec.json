@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/Library.Assignment.csproj": {}
+    "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj": {}
   },
   "projects": {
-    "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/Library.Assignment.csproj": {
+    "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/Library.Assignment.csproj",
+        "projectUniqueName": "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj",
         "projectName": "Library.Assignment",
-        "projectPath": "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/Library.Assignment.csproj",
+        "projectPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj",
         "packagesPath": "/Users/samueliturra/.nuget/packages/",
-        "outputPath": "/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/",
+        "outputPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/samueliturra/.nuget/NuGet/NuGet.Config"

@@ -1,11 +1,12 @@
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/bin/Debug/net8.0/Library.Assignment.deps.json
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/bin/Debug/net8.0/Library.Assignment.dll
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/bin/Debug/net8.0/Library.Assignment.pdb
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/Library.Assignment.GeneratedMSBuildEditorConfig.editorconfig
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/Library.Assignment.AssemblyInfoInputs.cache
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/Library.Assignment.AssemblyInfo.cs
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/Library.Assignment.csproj.CoreCompileInputs.cache
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/Library.Assignment.dll
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/refint/Library.Assignment.dll
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/Library.Assignment.pdb
-/Users/samueliturra/Desktop/FSU School/C# Class/Assignment1/Library.Assignment/obj/Debug/net8.0/ref/Library.Assignment.dll
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/bin/Debug/net8.0/Library.Assignment.deps.json
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/bin/Debug/net8.0/Library.Assignment.dll
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/bin/Debug/net8.0/Library.Assignment.pdb
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/Library.Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/Library.Assignment.AssemblyInfoInputs.cache
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/Library.Assignment.AssemblyInfo.cs
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/Library.Assignment.csproj.CoreCompileInputs.cache
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/Library.Assignment.sourcelink.json
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/Library.Assignment.dll
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/refint/Library.Assignment.dll
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/Library.Assignment.pdb
+/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/Debug/net8.0/ref/Library.Assignment.dll

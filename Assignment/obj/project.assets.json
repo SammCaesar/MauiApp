@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library.Assignment/1.0.0": {
+      "type": "project",
+      "path": "../Library.Assignment/Library.Assignment.csproj",
+      "msbuildProject": "../Library.Assignment/Library.Assignment.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Library.Assignment >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/samueliturra/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj",
-      "projectName": "Library.Assignment",
-      "projectPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj",
+      "projectUniqueName": "/Users/samueliturra/Desktop/FSU School/MauiApp/Assignment/Assignment.csproj",
+      "projectName": "Assignment",
+      "projectPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Assignment/Assignment.csproj",
       "packagesPath": "/Users/samueliturra/.nuget/packages/",
-      "outputPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/obj/",
+      "outputPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Assignment/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samueliturra/.nuget/NuGet/NuGet.Config"
@@ -32,7 +51,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj": {
+              "projectPath": "/Users/samueliturra/Desktop/FSU School/MauiApp/Library.Assignment/Library.Assignment.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
