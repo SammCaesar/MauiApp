@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Assignment", "Library.Assignment\Library.Assignment.csproj", "{7633603B-F36B-466F-A277-27D5DF260E76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Assignment1", "Library.Assignment\Library.Assignment1.csproj", "{7633603B-F36B-466F-A277-27D5DF260E76}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment", "Assignment\Assignment.csproj", "{F34D8916-CB61-4C08-9670-2B3390C83172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1", "Assignment\Assignment1.csproj", "{F34D8916-CB61-4C08-9670-2B3390C83172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUI.Assingment", "MAUI.Assingment\MAUI.Assingment.csproj", "{6A3D11FF-60CA-4AB7-8773-79501D525A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUI.Assingment", "MAUI.Assingment\MAUI.Assingment.csproj", "{6A3D11FF-60CA-4AB7-8773-79501D525A47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

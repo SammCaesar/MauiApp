@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Library.Assignment/1.0.0": {
+      "Library.Assignment1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Library.Assignment.dll": {}
+          "bin/placeholder/Library.Assignment1.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Library.Assignment.dll": {}
+          "bin/placeholder/Library.Assignment1.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Library.Assignment/1.0.0": {
+    "Library.Assignment1/1.0.0": {
       "type": "project",
-      "path": "../Library.Assignment/Library.Assignment.csproj",
-      "msbuildProject": "../Library.Assignment/Library.Assignment.csproj"
+      "path": "../Library.Assignment/Library.Assignment1.csproj",
+      "msbuildProject": "../Library.Assignment/Library.Assignment1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Library.Assignment >= 1.0.0"
+      "Library.Assignment1 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Assignment\\Assignment.csproj",
-      "projectName": "Assignment",
-      "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Assignment\\Assignment.csproj",
+      "projectUniqueName": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Assignment\\Assignment1.csproj",
+      "projectName": "Assignment1",
+      "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Assignment\\Assignment1.csproj",
       "packagesPath": "C:\\Users\\cello\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Assignment\\obj\\",
       "projectStyle": "PackageReference",
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj": {
-              "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj"
+            "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment1.csproj": {
+              "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment1.csproj"
             }
           }
         }

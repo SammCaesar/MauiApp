@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj",
-      "projectName": "Library.Assignment",
-      "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj",
+      "projectUniqueName": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment1.csproj",
+      "projectName": "Library.Assignment1",
+      "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment1.csproj",
       "packagesPath": "C:\\Users\\cello\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\obj\\",
       "projectStyle": "PackageReference",

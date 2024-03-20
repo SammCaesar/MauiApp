@@ -1,5 +1,5 @@
-﻿using Assignment1.Entities;
-using Assignment1.Services;
+﻿using Library.Assignment1.Entities;
+using Library.Assignment1.Services;
 using Assignment1.Helpers;
 namespace Assignment1;
 

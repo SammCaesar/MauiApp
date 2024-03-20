@@ -1,6 +1,6 @@
-﻿using Assignment1.Entities;
+﻿using Library.Assignment1.Entities;
 
-namespace Assignment1.Services
+namespace Library.Assignment1.Services
 {
 	public class CourseService
 	{

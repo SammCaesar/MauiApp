@@ -1,6 +1,6 @@
 ﻿using System;
-using Assignment1.Services;
-using Assignment1.Entities;
+using Library.Assignment1.Services;
+using Library.Assignment1.Entities;
 using System.Xml.Linq;
 
 namespace Assignment1.Helpers

@@ -1,0 +1,12 @@
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\bin\Debug\net8.0\Library.Assignment1.deps.json
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\bin\Debug\net8.0\Library.Assignment1.dll
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\bin\Debug\net8.0\Library.Assignment1.pdb
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\Library.Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\Library.Assignment1.AssemblyInfoInputs.cache
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\Library.Assignment1.AssemblyInfo.cs
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\Library.Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\Library.Assignment1.sourcelink.json
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\Library.Assignment1.dll
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\refint\Library.Assignment1.dll
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\Library.Assignment1.pdb
+C:\Users\cello\OneDrive\Desktop\MauiApp\Library.Assignment\obj\Debug\net8.0\ref\Library.Assignment1.dll

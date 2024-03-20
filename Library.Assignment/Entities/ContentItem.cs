@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Assignment1.Entities
+namespace Library.Assignment1.Entities
 {
 	public class ContentItem
 	{

@@ -67,7 +67,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Library.Assignment\Library.Assignment.csproj" />
+	  <ProjectReference Include="..\Library.Assignment\Library.Assignment1.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

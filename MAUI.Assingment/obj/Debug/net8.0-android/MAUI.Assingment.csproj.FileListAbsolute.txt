@@ -1067,3 +1067,8 @@ C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\obj\Debug\net8.0-android
 C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\bin\Debug\net8.0-android\Library.Assignment1.dll
+C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\bin\Debug\net8.0-android\Library.Assignment1.pdb
+C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\obj\Debug\net8.0-android\MAUI.Ass.DF028639.Up2Date
+C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\obj\Debug\net8.0-android\android\assets\Library.Assignment1.dll
+C:\Users\cello\OneDrive\Desktop\MauiApp\MAUI.Assingment\obj\Debug\net8.0-android\android\assets\Library.Assignment1.pdb

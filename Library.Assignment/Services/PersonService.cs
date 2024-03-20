@@ -1,6 +1,6 @@
 ﻿using System;
-using Assignment1.Entities;
-namespace Assignment1.Services
+using Library.Assignment1.Entities;
+namespace Library.Assignment1.Services
 {
 	public class PersonService
 	{
