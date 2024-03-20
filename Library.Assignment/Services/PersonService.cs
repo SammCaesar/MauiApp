@@ -33,7 +33,14 @@ namespace Assignment1.Services
 
         private PersonService()
         {
-            persons = new List<Person>();
+            persons = new List<Person>
+            {
+                new Person{Name = "TestPerson 1"},
+                new Person{Name = "TestPerson 2"},
+                new Person{Name = "TestPerson 3"},
+                new Person{Name = "TestPerson 4"},
+                new Person{Name = "TestPerson 5"},
+            };
         }
 
         public IEnumerable<Person> Search(string query)

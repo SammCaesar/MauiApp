@@ -9,7 +9,9 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Entry Text="{Binding InstructorName}"></Entry>
+        <ListView
+            ItemsSource="{Binding Persons}">
+        </ListView>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>
