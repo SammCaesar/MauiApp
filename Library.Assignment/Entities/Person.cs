@@ -5,15 +5,15 @@ namespace Library.Assignment1.Entities
 	{
         public int ID { get; set; }
 		public string Name { get; set; }
-        public string Classification { get; set; }
-        public List<int> Grades = new();
+        public string Classification { get; set; } // Student or Instructor
+        
         public Person()
 		{
 		}
 
         public override string ToString()
         {
-            return $"{Name} | {Classification}";
+            return $"[{ID}] {Name} | {Classification}";
         }
     }
 }

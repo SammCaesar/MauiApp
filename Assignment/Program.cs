@@ -24,7 +24,7 @@ internal class Program
                     courseHelper.AddCourse();
                     break;
                 case 2:
-                    personHelper.AddPerson();
+                    personHelper.AddStudent();
                     break;
                 case 3:
                     courseHelper.AddToRoster();
@@ -51,7 +51,7 @@ internal class Program
                     courseHelper.UpdateCourse();
                     break;
                 case 11:
-                    personHelper.UpdatePerson();
+                    personHelper.UpdateStudent();
                     break;
                 case 12:
                     courseHelper.CreateAssignment();

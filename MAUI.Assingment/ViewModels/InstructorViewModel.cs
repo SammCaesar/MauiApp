@@ -9,15 +9,15 @@ using Library.Assignment1.Services;
 
 namespace MAUI.Assingment.ViewModels
 {
-    internal class InstructorViewModel
+    public class InstructorViewModel
     {
         private PersonService personSvc;
 
-        public ObservableCollection<Person> Persons
+        public ObservableCollection<Instructor> Instructors
         {
             get
             {
-                return new ObservableCollection<Person>(personSvc.Persons);
+                return new ObservableCollection<Instructor>(personSvc.Instructors);
             }
         }
 

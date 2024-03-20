@@ -13,4 +13,9 @@ public partial class InstructorView : ContentPage
     {
         Shell.Current.GoToAsync("//MainPage");
     }
+
+    private void AddStudentClicked(object sender, EventArgs e)
+    {
+
+    }
 }

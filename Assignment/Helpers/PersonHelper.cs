@@ -9,40 +9,40 @@ namespace Assignment1.Helpers
         private PersonService personSvc = PersonService.Current;
         private CourseService courseSvc = CourseService.Current;
 
-        public void AddPerson()
+        public void AddStudent()
         {
             string name, classification;
             Console.WriteLine("\nEnter the Student's Name: ");
             name = Console.ReadLine() ?? "";
-            Console.WriteLine("\nEnter the Student's Classification: ");
+            Console.WriteLine("\nEnter the Student's Grade/Year: ");
             classification = Console.ReadLine() ?? "";
 
-            Person student = new Person { Name = name, Classification = classification };
+            Person student = new Student { Name = name, Grade = classification, Classification = "Student" };
 
             personSvc.Add(student);
         }
 
-        public void UpdatePerson()
+        public void UpdateStudent()
         {
             int count = 0;
             Console.WriteLine("Choose number out of all courses: ");
-            PersonService.Current.Persons.ToList().ForEach(c => Console.WriteLine($"{++count}. {c}"));
+            PersonService.Current.Students.ToList().ForEach(c => Console.WriteLine($"{++count}. {c}"));
 
             var choice = Console.ReadLine();
 
             if (int.TryParse(choice, out int intChoice))
             {
-                var myPerson = PersonService.Current.Persons.ElementAt(intChoice-1);
+                var myPerson = PersonService.Current.Students.ElementAt(intChoice-1);
 
                 Console.WriteLine("What is the new Name?");
                 myPerson.Name = Console.ReadLine();
 
-                Console.WriteLine("What is the new Classification?");
-                myPerson.Classification = Console.ReadLine();
+                Console.WriteLine("What is the Student's new Grade/Year");
+                myPerson.Grade = Console.ReadLine();
             }
         }
 
-        public void RemovePerson()
+        public void RemoveStudent()
         {
             int count = 0;
             PersonService.Current.Persons.ToList().ForEach(c => Console.WriteLine($"{++count}. {c}"));
@@ -70,6 +70,24 @@ namespace Assignment1.Helpers
             var name = Console.ReadLine();
 
             var myPerson = personSvc.Search(name).FirstOrDefault();
+
+            if (myPerson != null)
+            {
+                Console.WriteLine("\nPerson Found: \n" + myPerson);
+            }
+            else
+            {
+                Console.WriteLine("\nNo Person Found!");
+            }
+
+            return myPerson;
+        }
+        public Person FindStudent()
+        {
+            Console.WriteLine("\nPerson's Name you wish to search for: ");
+            var name = Console.ReadLine();
+
+            var myPerson = personSvc.SearchStudent(name).FirstOrDefault();
 
             if (myPerson != null)
             {

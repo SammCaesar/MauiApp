@@ -30,22 +30,51 @@ namespace Library.Assignment1.Services
                 return persons ?? new List<Person>();
             }
         }
+        public IEnumerable<Instructor> Instructors
+        {
+            get
+            {
+                return persons.Where(p => p is Instructor).Select(p => p as Instructor);
+            }
+        }
+        public IEnumerable<Student> Students
+        {
+            get
+            {
+                return persons.Where(p => p is Student).Select(p => p as Student);
+            }
+        }
 
         private PersonService()
         {
-            persons = new List<Person>
+            persons = new List<Person>();
+            var mills = new Instructor()
             {
-                new Person{Name = "TestPerson 1"},
-                new Person{Name = "TestPerson 2"},
-                new Person{Name = "TestPerson 3"},
-                new Person{Name = "TestPerson 4"},
-                new Person{Name = "TestPerson 5"},
+                Name = "Chris Mills",
+                Classification = "Teacher",
             };
+            var sharanya = new Instructor()
+            {
+                Name = "Sharanya Jayaraman",
+                Classification = "Teacher",
+            };
+            Add(mills);
+            Add(sharanya);
         }
 
         public IEnumerable<Person> Search(string query)
         {
             return Persons.Where(c =>
+                c.Name.ToUpper().Contains(query.ToUpper()));
+        }
+        public IEnumerable<Instructor> SearchInstructor(string query)
+        {
+            return Instructors.Where(c =>
+                c.Name.ToUpper().Contains(query.ToUpper()));
+        }
+        public IEnumerable<Student> SearchStudent(string query)
+        {
+            return Students.Where(c =>
                 c.Name.ToUpper().Contains(query.ToUpper()));
         }
 
