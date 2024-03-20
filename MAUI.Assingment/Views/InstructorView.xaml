@@ -9,6 +9,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
+        <Entry Text="{Binding InstructorName}"></Entry>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>

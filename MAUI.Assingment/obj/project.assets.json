@@ -2207,6 +2207,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-android34.0/android-arm": {
@@ -4414,6 +4424,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -6623,6 +6643,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-android34.0/android-x64": {
@@ -8830,6 +8860,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -11039,6 +11079,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
@@ -13246,6 +13296,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -15455,6 +15515,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-android34.0/win10-x64": {
@@ -17663,6 +17733,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-ios17.2": {
@@ -18084,6 +18164,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -18507,6 +18597,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-ios17.2/android-arm64": {
@@ -18928,6 +19028,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -19351,6 +19461,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-ios17.2/android-x86": {
@@ -19772,6 +19892,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -20195,6 +20325,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-ios17.2/maccatalyst-x64": {
@@ -20616,6 +20756,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -21039,6 +21189,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.2": {
@@ -21460,6 +21620,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -21883,6 +22053,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.2/android-arm64": {
@@ -22304,6 +22484,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -22727,6 +22917,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.2/android-x86": {
@@ -23148,6 +23348,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -23571,6 +23781,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.2/maccatalyst-x64": {
@@ -23993,6 +24213,16 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.2/win10-x64": {
@@ -24414,6 +24644,16 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -24980,6 +25220,16 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -25516,6 +25766,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -26054,6 +26314,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
@@ -26590,6 +26860,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -27128,6 +27408,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
@@ -27665,6 +27955,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
@@ -28201,6 +28501,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     },
@@ -28744,6 +29054,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Library.Assignment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Assignment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Assignment.dll": {}
         }
       }
     }
@@ -32902,28 +33222,37 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "Library.Assignment/1.0.0": {
+      "type": "project",
+      "path": "../Library.Assignment/Library.Assignment.csproj",
+      "msbuildProject": "../Library.Assignment/Library.Assignment.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "Library.Assignment >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
       "Microsoft.NET.ILLink.Tasks >= 8.0.3"
     ],
     "net8.0-ios17.2": [
+      "Library.Assignment >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
       "Microsoft.NET.ILLink.Tasks >= 8.0.3"
     ],
     "net8.0-maccatalyst17.2": [
+      "Library.Assignment >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
       "Microsoft.NET.ILLink.Tasks >= 8.0.3"
     ],
     "net8.0-windows10.0.19041": [
+      "Library.Assignment >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7"
@@ -32965,19 +33294,35 @@
       "frameworks": {
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj": {
+              "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj"
+            }
+          }
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj": {
+              "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj"
+            }
+          }
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj": {
+              "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj"
+            }
+          }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj": {
+              "projectPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Library.Assignment.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

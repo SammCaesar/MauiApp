@@ -1,3 +1,5 @@
+using MAUI.Assingment.ViewModels;
+
 namespace MAUI.Assingment.Views;
 
 public partial class StudentView : ContentPage
@@ -5,6 +7,7 @@ public partial class StudentView : ContentPage
 	public StudentView()
 	{
 		InitializeComponent();
+        BindingContext = new StudentViewModel();
 	}
     private void BackButtonClicked(object sender, EventArgs e)
     {

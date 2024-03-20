@@ -67,7 +67,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\" />
+	  <ProjectReference Include="..\Library.Assignment\Library.Assignment.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
