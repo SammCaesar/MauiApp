@@ -41,3 +41,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Views/InstructorView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Views.InstructorView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InstructorView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InstructorView.xaml
+
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Views/StudentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Views.StudentView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StudentView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StudentView.xaml

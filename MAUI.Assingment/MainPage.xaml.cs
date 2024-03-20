@@ -11,11 +11,11 @@
 
         private void InstructorButtonClicked(object sender, EventArgs e)
         {
-
+            Shell.Current.GoToAsync("//Instructor");
         }
         private void StudentButtonClicked(object sender, EventArgs e)
         {
-
+            Shell.Current.GoToAsync("//Student");
         }
 
         //private void OnCounterClicked(object sender, EventArgs e)
