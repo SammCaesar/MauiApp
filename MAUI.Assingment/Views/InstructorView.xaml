@@ -12,6 +12,9 @@
         <ListView
             ItemsSource="{Binding Instructors}">
         </ListView>
+        <ListView
+            ItemsSource="{Binding Students}">
+        </ListView>
         <Button Text="Add Student" Clicked="AddStudentClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
