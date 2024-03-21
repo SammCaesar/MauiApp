@@ -6,4 +6,8 @@ public partial class StudentDialog : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void BackButtonClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//Instructor");
+    }
 }
