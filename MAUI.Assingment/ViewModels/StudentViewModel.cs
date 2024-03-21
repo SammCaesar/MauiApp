@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MAUI.Assingment.ViewModels
 {
-    internal class StudentViewModel
+    public class StudentViewModel
     {
+        
     }
 }

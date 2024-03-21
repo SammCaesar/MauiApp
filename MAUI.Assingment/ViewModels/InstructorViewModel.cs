@@ -20,10 +20,22 @@ namespace MAUI.Assingment.ViewModels
                 return new ObservableCollection<Instructor>(personSvc.Instructors);
             }
         }
+        
+        public ObservableCollection<Student> Students
+        {
+            get
+            {
+                return new ObservableCollection<Student>(personSvc.Students);
+            }
+        }
 
         public InstructorViewModel()
         {
             personSvc = PersonService.Current;
+        }
+        public void AddStudent()
+        {
+
         }
     }
 }
