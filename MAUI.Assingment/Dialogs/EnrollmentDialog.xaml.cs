@@ -20,5 +20,6 @@ public partial class EnrollmentDialog : ContentPage
     private void EnrollStudentClicked(object sender, EventArgs e)
     {
         (BindingContext as InstructorViewModel)?.EnrollStudent();
+        Shell.Current.GoToAsync("//Instructor");
     }
 }

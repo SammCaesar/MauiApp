@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI.Assingment.Dialogs.ModuleDialog"
+             Title="ModuleDialog"
+             NavigatedTo="ContentPage_NavigatedTo">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Pick which Course you would like to add Module too."
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
+        <ListView
+            ItemsSource="{Binding Courses}"
+            SelectedItem="{Binding SelectedCourse}">
+        </ListView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Module Name" Grid.Column="0" Grid.Row="0"/>
+            <Entry Text="{Binding Name}" Grid.Column="1" Grid.Row="0"/>
+            <Label Text="Module Description" Grid.Column="0" Grid.Row="1"/>
+            <Entry Text="{Binding Description}" Grid.Column="1" Grid.Row="1"/>
+            <Label Text="ContentItem Name" Grid.Column="0" Grid.Row="2"/>
+            <Entry Text="{Binding ContentItemName}" Grid.Column="1" Grid.Row="2"/>
+            <Label Text="ContentItem Description" Grid.Column="0" Grid.Row="3"/>
+            <Entry Text="{Binding ContentItemDescription}" Grid.Column="1" Grid.Row="3"/>
+        </Grid>
+        <Button Text="Add Module" Clicked="AddModuleButtonClicked"></Button>
+        <Button Text="Cancel" Clicked="BackButtonClicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>
