@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Library.Assignment1.Entities;
+using Library.Assignment1.Services;
 
 namespace MAUI.Assingment.ViewModels
 {
     public class StudentDialogViewModel
     {
         private Student? student;
-
         public string Name
         {
             get { return student?.Name ?? string.Empty; }
@@ -41,7 +41,14 @@ namespace MAUI.Assingment.ViewModels
 
         public StudentDialogViewModel()
         {
-            student = new Student { Name = "Bind Test", Grade = "Bind Test" };
+            student = new Student();
+        }
+        public void AddStudent()
+        {
+            if (student != null)
+            {
+                PersonService.Current.Add(student);
+            }
         }
     }
 }

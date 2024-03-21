@@ -19,4 +19,9 @@ public partial class InstructorView : ContentPage
         Shell.Current.GoToAsync("//StudentDetails");
         //(BindingContext as InstructorViewModel)?.AddStudent();
     }
+
+    private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
+    {
+        (BindingContext as InstructorViewModel).RefreshView();
+    }
 }

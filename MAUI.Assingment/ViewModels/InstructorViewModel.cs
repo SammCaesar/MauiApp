@@ -22,6 +22,13 @@ namespace MAUI.Assingment.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        public ObservableCollection<Person> Persons
+        {
+            get
+            {
+                return new ObservableCollection<Person>(personSvc.Persons);
+            }
+        }
         public ObservableCollection<Instructor> Instructors
         {
             get
@@ -29,7 +36,6 @@ namespace MAUI.Assingment.ViewModels
                 return new ObservableCollection<Instructor>(personSvc.Instructors);
             }
         }
-        
         public ObservableCollection<Student> Students
         {
             get
@@ -41,6 +47,11 @@ namespace MAUI.Assingment.ViewModels
         public InstructorViewModel()
         {
             personSvc = PersonService.Current;
+        }
+        public void RefreshView()
+        {
+            NotifyPropertyChanged(nameof(Persons));
+            //NotifyPropertyChanged(nameof(Students));
         }
         public void AddStudent()
         {
