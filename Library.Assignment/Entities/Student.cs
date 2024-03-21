@@ -15,6 +15,7 @@ namespace Library.Assignment1.Entities
         public Student() 
         {
             Grades = new Dictionary<string, char>();
+            Classification = "Student";
         }
 
         public override string ToString()

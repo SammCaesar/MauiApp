@@ -8,5 +8,9 @@ namespace Library.Assignment1.Entities
 {
     public class Instructor : Person
     {
+        public Instructor() 
+        {
+            Classification = "Instructor";
+        }
     }
 }
