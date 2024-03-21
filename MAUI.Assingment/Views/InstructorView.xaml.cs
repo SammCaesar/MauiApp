@@ -28,7 +28,10 @@ public partial class InstructorView : ContentPage
     {
         (BindingContext as InstructorViewModel)?.RemoveStudent();
     }
-
+    private void AddCourseClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//CourseDetails");
+    }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {
         (BindingContext as InstructorViewModel)?.RefreshView();

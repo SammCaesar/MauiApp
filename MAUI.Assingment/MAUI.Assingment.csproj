@@ -71,6 +71,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Dialogs\CourseDialog.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Dialogs\InstructorDialog.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

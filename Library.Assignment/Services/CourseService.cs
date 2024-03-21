@@ -34,6 +34,20 @@ namespace Library.Assignment1.Services
 		private CourseService()
 		{
 			courses = new List<Course>();
+			var mills = new Course()
+			{
+				Code = "101",
+				Name = "C# FullStack Development",
+				Description = "Chris Mills teaches C# and MAUI FullStack Development.",
+			};
+			var sharanya = new Course()
+			{
+				Code = "202",
+				Name = "Parallel Programming",
+				Description = "Sharanya Jayaraman teaches Parallel Programming in Python",
+			};
+			courses.Add(mills);
+			courses.Add(sharanya);
 		}
 
         public Course? GetByID(int Id)

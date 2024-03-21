@@ -17,6 +17,11 @@
         <Button Text="Add Student" Clicked="AddStudentClicked"></Button>
         <Button Text="Update Student" Clicked="UpdateStudentClicked"></Button>
         <Button Text="Remove Student" Clicked="RemoveStudentClicked"></Button>
+        <ListView
+            ItemsSource="{Binding Courses}"
+            SelectedItem="{Binding SelectedCourse}">
+        </ListView>
+        <Button Text="Add Course" Clicked="AddCourseClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>
