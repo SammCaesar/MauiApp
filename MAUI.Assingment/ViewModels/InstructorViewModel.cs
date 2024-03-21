@@ -43,7 +43,10 @@ namespace MAUI.Assingment.ViewModels
                 return new ObservableCollection<Student>(personSvc.Students);
             }
         }
-
+        public Person SelectedPerson
+        {
+            get; set;
+        }
         public InstructorViewModel()
         {
             personSvc = PersonService.Current;
@@ -64,6 +67,11 @@ namespace MAUI.Assingment.ViewModels
 
             personSvc.Add(myStudent);
             NotifyPropertyChanged("Students");
+        }
+        public void RemoveStudent()
+        {
+            personSvc.Remove(SelectedPerson);
+            RefreshView();
         }
     }
 }
