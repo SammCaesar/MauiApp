@@ -9,6 +9,10 @@ namespace Library.Assignment1.Entities
         public ContentItem()
 		{
 		}
-	}
+        public override string ToString()
+        {
+            return $"Content: {Name}\nDescription: {Description}\n";
+        }
+    }
 }
 

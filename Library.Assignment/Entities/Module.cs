@@ -9,6 +9,15 @@ namespace Library.Assignment1.Entities
         public Module()
 		{
 		}
-	}
+        public override string ToString()
+        {
+            string result = $"Module: {Name}\nDescription: {Description}\n";
+            foreach (var item in Content)
+            {
+                result += item.ToString() + "\n";
+            }
+            return result;
+        }
+    }
 }
 

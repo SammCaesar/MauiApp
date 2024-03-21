@@ -6,7 +6,7 @@ public partial class EnrollmentDialog : ContentPage
 {
 	public EnrollmentDialog()
 	{
-		InitializeComponent();
+        InitializeComponent();
         BindingContext = new InstructorViewModel();
     }
     private void BackButtonClicked(object sender, EventArgs e)

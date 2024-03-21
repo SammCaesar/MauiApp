@@ -13,7 +13,6 @@ public partial class InstructorView : ContentPage
     {
         Shell.Current.GoToAsync("//MainPage");
     }
-
     private void AddStudentClicked(object sender, EventArgs e)
     {
         Shell.Current.GoToAsync("//StudentDetails");
@@ -31,6 +30,10 @@ public partial class InstructorView : ContentPage
     private void AddCourseClicked(object sender, EventArgs e)
     {
         Shell.Current.GoToAsync("//CourseDetails");
+    }
+    private void AddModuleAssignmentClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//InstructorModuleAssignment");
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {

@@ -12,10 +12,10 @@
     <MauiXaml Update="Dialogs\EnrollmentDialog.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Dialogs\InstructorDialog.xaml">
+    <MauiXaml Update="Dialogs\StudentDialog.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Dialogs\StudentDialog.xaml">
+    <MauiXaml Update="Views\InstructorModuleAssignmentView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\InstructorView.xaml">

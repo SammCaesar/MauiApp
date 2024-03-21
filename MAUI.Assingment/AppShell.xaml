@@ -18,6 +18,10 @@
         ContentTemplate="{DataTemplate local2:InstructorView}"
         Route="Instructor"/>
     <ShellContent 
+        Title="Instructor Module Assignment"
+        ContentTemplate="{DataTemplate local2:InstructorModuleAssignmentView}"
+        Route="InstructorModuleAssignment"/>
+    <ShellContent 
         Title="Student Details"
         ContentTemplate="{DataTemplate local3:StudentDialog}"
         Route="StudentDetails"/>
