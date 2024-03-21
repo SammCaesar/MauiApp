@@ -14,9 +14,18 @@ namespace Library.Assignment1.Entities
 		{
 		}
 
+        //public override string ToString()
+        //{
+        //    return $"{Code} | {Name} \nDescription: {Description}";
+        //}
         public override string ToString()
         {
-            return $"{Code} | {Name} \nDescription: {Description}";
+            string result = $"{Code} | {Name} \nDescription: {Description}\n";
+            foreach (var stud in Roster)
+            {
+                result += stud.ToString() + "\n";
+            }
+            return result;
         }
     }
 }

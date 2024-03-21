@@ -30,6 +30,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.Co
 build_metadata.AdditionalFiles.TargetPath = Dialogs\CourseDialog.xaml
 build_metadata.AdditionalFiles.RelativePath = Dialogs\CourseDialog.xaml
 
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Dialogs/EnrollmentDialog.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.EnrollmentDialog.xaml
+build_metadata.AdditionalFiles.TargetPath = Dialogs\EnrollmentDialog.xaml
+build_metadata.AdditionalFiles.RelativePath = Dialogs\EnrollmentDialog.xaml
+
 [C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Dialogs/InstructorDialog.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.InstructorDialog.xaml

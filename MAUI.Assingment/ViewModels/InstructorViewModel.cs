@@ -86,5 +86,13 @@ namespace MAUI.Assingment.ViewModels
             personSvc.Remove(SelectedPerson);
             RefreshView();
         }
+        public void EnrollStudent()
+        {
+            if (SelectedPerson is Student)
+            {
+                SelectedCourse.Roster.Add(SelectedPerson);
+                RefreshView();
+            }
+        }
     }
 }

@@ -26,6 +26,10 @@
         ContentTemplate="{DataTemplate local3:CourseDialog}"
         Route="CourseDetails"/>
     <ShellContent 
+        Title="Enrollment Details"
+        ContentTemplate="{DataTemplate local3:EnrollmentDialog}"
+        Route="EnrollmentDetails"/>
+    <ShellContent 
         Title="Student"
         ContentTemplate="{DataTemplate local2:StudentView}"
         Route="Student"/>    

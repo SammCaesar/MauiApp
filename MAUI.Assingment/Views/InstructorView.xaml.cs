@@ -19,14 +19,14 @@ public partial class InstructorView : ContentPage
         Shell.Current.GoToAsync("//StudentDetails");
         //(BindingContext as InstructorViewModel)?.AddStudent();
     }
-    private void UpdateStudentClicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("//StudentDetails");
-        //(BindingContext as InstructorViewModel)?.AddStudent();
-    }
     private void RemoveStudentClicked(object sender, EventArgs e)
     {
         (BindingContext as InstructorViewModel)?.RemoveStudent();
+    }
+    private void EnrollStudentClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//EnrollmentDetails");
+        //(BindingContext as InstructorViewModel)?.EnrollStudent();
     }
     private void AddCourseClicked(object sender, EventArgs e)
     {
