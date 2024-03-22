@@ -15,6 +15,7 @@
             SelectedItem="{Binding SelectedPerson}">
         </ListView>
         <Button Text="Add Student" Clicked="AddStudentClicked"></Button>
+        <Button Text="Update Student" Clicked="UpdateStudentClicked"></Button>
         <Button Text="Remove Student" Clicked="RemoveStudentClicked"></Button>
         <Button Text="Enroll Student" Clicked="EnrollStudentClicked"></Button>
         <ListView

@@ -54,6 +54,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.St
 build_metadata.AdditionalFiles.TargetPath = Dialogs\StudentDialog.xaml
 build_metadata.AdditionalFiles.RelativePath = Dialogs\StudentDialog.xaml
 
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Dialogs/UpdateStudentDialog.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.UpdateStudentDialog.xaml
+build_metadata.AdditionalFiles.TargetPath = Dialogs\UpdateStudentDialog.xaml
+build_metadata.AdditionalFiles.RelativePath = Dialogs\UpdateStudentDialog.xaml
+
 [C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.MainPage.xaml

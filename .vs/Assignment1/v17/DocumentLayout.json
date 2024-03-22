@@ -3,36 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7633603B-F36B-466F-A277-27D5DF260E76}|Library.Assignment\\Library.Assignment1.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\library.assignment\\entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7633603B-F36B-466F-A277-27D5DF260E76}|Library.Assignment\\Library.Assignment1.csproj|solutionrelative:library.assignment\\entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\views\\instructorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\views\\instructorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7633603B-F36B-466F-A277-27D5DF260E76}|Library.Assignment\\Library.Assignment1.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\library.assignment\\entities\\contentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7633603B-F36B-466F-A277-27D5DF260E76}|Library.Assignment\\Library.Assignment1.csproj|solutionrelative:library.assignment\\entities\\contentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\views\\instructorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\views\\instructorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7633603B-F36B-466F-A277-27D5DF260E76}|Library.Assignment\\Library.Assignment1.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\library.assignment\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7633603B-F36B-466F-A277-27D5DF260E76}|Library.Assignment\\Library.Assignment1.csproj|solutionrelative:library.assignment\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\viewmodels\\assignmentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\viewmodels\\assignmentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\viewmodels\\updatestudentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\viewmodels\\updatestudentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\views\\instructormoduleassignmentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\views\\instructormoduleassignmentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\views\\instructormoduleassignmentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\views\\instructormoduleassignmentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\viewmodels\\instructorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\viewmodels\\instructorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\assignmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\assignmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\assignmentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\assignmentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\updatestudentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\updatestudentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\updatestudentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\updatestudentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\studentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\studentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\enrollmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\enrollmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\viewmodels\\moduledialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\viewmodels\\moduledialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\viewmodels\\studentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\viewmodels\\studentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\studentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\studentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|c:\\users\\cello\\onedrive\\desktop\\mauiapp\\maui.assingment\\dialogs\\moduledialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3D11FF-60CA-4AB7-8773-79501D525A47}|MAUI.Assingment\\MAUI.Assingment.csproj|solutionrelative:maui.assingment\\dialogs\\moduledialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +70,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContentItem.cs",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Entities\\ContentItem.cs",
-              "RelativeDocumentMoniker": "Library.Assignment\\Entities\\ContentItem.cs",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Entities\\ContentItem.cs",
-              "RelativeToolTip": "Library.Assignment\\Entities\\ContentItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T01:01:54.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Entities\\Course.cs",
-              "RelativeDocumentMoniker": "Library.Assignment\\Entities\\Course.cs",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Entities\\Course.cs",
-              "RelativeToolTip": "Library.Assignment\\Entities\\Course.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAkwCMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T01:00:49.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InstructorModuleAssignmentView.xaml",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml",
-              "RelativeDocumentMoniker": "MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml",
-              "RelativeToolTip": "MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-22T00:58:46.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Assignment.cs",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Entities\\Assignment.cs",
-              "RelativeDocumentMoniker": "Library.Assignment\\Entities\\Assignment.cs",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\Library.Assignment\\Entities\\Assignment.cs",
-              "RelativeToolTip": "Library.Assignment\\Entities\\Assignment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB+AAAA",
+              "Title": "InstructorView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorView.xaml.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Views\\InstructorView.xaml.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorView.xaml.cs",
+              "RelativeToolTip": "MAUI.Assingment\\Views\\InstructorView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T00:19:46.233Z",
+              "WhenOpened": "2024-03-22T04:56:38.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InstructorModuleAssignmentView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml.cs",
-              "RelativeDocumentMoniker": "MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml.cs",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml.cs",
-              "RelativeToolTip": "MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T00:56:32.149Z",
+              "DocumentIndex": 1,
+              "Title": "InstructorView.xaml",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorView.xaml",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Views\\InstructorView.xaml",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorView.xaml",
+              "RelativeToolTip": "MAUI.Assingment\\Views\\InstructorView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T04:55:18.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AssignmentDialogViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\AssignmentDialogViewModel.cs",
-              "RelativeDocumentMoniker": "MAUI.Assingment\\ViewModels\\AssignmentDialogViewModel.cs",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\AssignmentDialogViewModel.cs",
-              "RelativeToolTip": "MAUI.Assingment\\ViewModels\\AssignmentDialogViewModel.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAhwFQAAAAQAAAA",
+              "Title": "InstructorModuleAssignmentView.xaml",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml*",
+              "RelativeToolTip": "MAUI.Assingment\\Views\\InstructorModuleAssignmentView.xaml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T04:54:26.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateStudentDialogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\UpdateStudentDialogViewModel.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\ViewModels\\UpdateStudentDialogViewModel.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\UpdateStudentDialogViewModel.cs",
+              "RelativeToolTip": "MAUI.Assingment\\ViewModels\\UpdateStudentDialogViewModel.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwEEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T00:45:11.044Z",
+              "WhenOpened": "2024-03-22T04:43:33.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\AppShell.xaml",
+              "RelativeToolTip": "MAUI.Assingment\\AppShell.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T04:52:33.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InstructorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\InstructorViewModel.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\ViewModels\\InstructorViewModel.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\InstructorViewModel.cs",
+              "RelativeToolTip": "MAUI.Assingment\\ViewModels\\InstructorViewModel.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T04:45:51.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AssignmentDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml",
-              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml",
-              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-22T00:56:48.618Z",
+              "Title": "UpdateStudentDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml.cs",
+              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T04:40:28.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AssignmentDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml.cs",
-              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml.cs",
-              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\AssignmentDialog.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Title": "UpdateStudentDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml",
+              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\UpdateStudentDialog.xaml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswCIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T04:41:57.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\StudentDialog.xaml",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\StudentDialog.xaml",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\StudentDialog.xaml",
+              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\StudentDialog.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T04:49:47.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnrollmentDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\EnrollmentDialog.xaml",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\EnrollmentDialog.xaml",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\EnrollmentDialog.xaml",
+              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\EnrollmentDialog.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T04:49:36.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\ViewModels\\StudentViewModel.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\StudentViewModel.cs",
+              "RelativeToolTip": "MAUI.Assingment\\ViewModels\\StudentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T00:53:15.575Z",
+              "WhenOpened": "2024-03-22T04:43:37.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModuleDialogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\ModuleDialogViewModel.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\ViewModels\\ModuleDialogViewModel.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\ModuleDialogViewModel.cs",
+              "RelativeToolTip": "MAUI.Assingment\\ViewModels\\ModuleDialogViewModel.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T04:46:14.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentDialogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\StudentDialogViewModel.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\ViewModels\\StudentDialogViewModel.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\ViewModels\\StudentDialogViewModel.cs",
+              "RelativeToolTip": "MAUI.Assingment\\ViewModels\\StudentDialogViewModel.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T04:43:40.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\StudentDialog.xaml.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\StudentDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\StudentDialog.xaml.cs",
+              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\StudentDialog.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T04:41:14.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ModuleDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\ModuleDialog.xaml.cs",
+              "RelativeDocumentMoniker": "MAUI.Assingment\\Dialogs\\ModuleDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\cello\\OneDrive\\Desktop\\MauiApp\\MAUI.Assingment\\Dialogs\\ModuleDialog.xaml.cs",
+              "RelativeToolTip": "MAUI.Assingment\\Dialogs\\ModuleDialog.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T04:41:07.654Z",
               "EditorCaption": ""
             }
           ]

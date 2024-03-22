@@ -6,7 +6,7 @@
              NavigatedTo="ContentPage_NavigatedTo">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Enroll Student"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
