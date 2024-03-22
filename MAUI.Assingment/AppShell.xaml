@@ -18,6 +18,14 @@
         ContentTemplate="{DataTemplate local2:InstructorView}"
         Route="Instructor"/>
     <ShellContent 
+        Title="Instructor Student"
+        ContentTemplate="{DataTemplate local2:InstructorStudentView}"
+        Route="InstructorStudent"/>
+    <ShellContent 
+        Title="Instructor Course"
+        ContentTemplate="{DataTemplate local2:InstructorCourseView}"
+        Route="InstructorCourse"/>
+    <ShellContent 
         Title="Instructor Module Assignment"
         ContentTemplate="{DataTemplate local2:InstructorModuleAssignmentView}"
         Route="InstructorModuleAssignment"/>
@@ -33,6 +41,10 @@
         Title="Course Details"
         ContentTemplate="{DataTemplate local3:CourseDialog}"
         Route="CourseDetails"/>
+    <ShellContent 
+        Title="Update Course Details"
+        ContentTemplate="{DataTemplate local3:UpdateCourseDialog}"
+        Route="UpdateCourseDetails"/>
     <ShellContent 
         Title="Enrollment Details"
         ContentTemplate="{DataTemplate local3:EnrollmentDialog}"

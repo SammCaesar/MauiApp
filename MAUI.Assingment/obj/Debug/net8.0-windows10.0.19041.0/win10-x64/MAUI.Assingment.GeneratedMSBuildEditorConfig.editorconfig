@@ -54,6 +54,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.St
 build_metadata.AdditionalFiles.TargetPath = Dialogs\StudentDialog.xaml
 build_metadata.AdditionalFiles.RelativePath = Dialogs\StudentDialog.xaml
 
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Dialogs/UpdateCourseDialog.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.UpdateCourseDialog.xaml
+build_metadata.AdditionalFiles.TargetPath = Dialogs\UpdateCourseDialog.xaml
+build_metadata.AdditionalFiles.RelativePath = Dialogs\UpdateCourseDialog.xaml
+
 [C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Dialogs/UpdateStudentDialog.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.UpdateStudentDialog.xaml
@@ -78,11 +84,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Views/InstructorCourseView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Views.InstructorCourseView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InstructorCourseView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InstructorCourseView.xaml
+
 [C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Views/InstructorModuleAssignmentView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Views.InstructorModuleAssignmentView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\InstructorModuleAssignmentView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\InstructorModuleAssignmentView.xaml
+
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Views/InstructorStudentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Views.InstructorStudentView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InstructorStudentView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InstructorStudentView.xaml
 
 [C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Views/InstructorView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

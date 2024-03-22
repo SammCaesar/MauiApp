@@ -12,7 +12,7 @@ public partial class StudentDialog : ContentPage
     private void AddStudentButtonClicked(object sender, EventArgs e)
     {
         (BindingContext as StudentDialogViewModel)?.AddStudent();
-        Shell.Current.GoToAsync("//Instructor");
+        Shell.Current.GoToAsync("//InstructorStudent");
         //Student? student = (BindingContext as StudentDialogViewModel)?.Student;
         //if (student != null)
         //{
@@ -21,7 +21,7 @@ public partial class StudentDialog : ContentPage
     }
     private void BackButtonClicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync("//Instructor");
+        Shell.Current.GoToAsync("//InstructorStudent");
     }
 
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)

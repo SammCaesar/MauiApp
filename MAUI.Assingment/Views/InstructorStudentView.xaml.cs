@@ -2,24 +2,16 @@ using MAUI.Assingment.ViewModels;
 
 namespace MAUI.Assingment.Views;
 
-public partial class InstructorView : ContentPage
+public partial class InstructorStudentView : ContentPage
 {
-	public InstructorView()
+	public InstructorStudentView()
 	{
 		InitializeComponent();
         BindingContext = new InstructorViewModel();
-	}
+    }
     private void BackButtonClicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync("//MainPage");
-    }
-    private void InstructorStudentViewClicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("//InstructorStudent");
-    }
-    private void InstructorCourseViewClicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("//InstructorCourse");
+        Shell.Current.GoToAsync("//Instructor");
     }
     private void AddStudentClicked(object sender, EventArgs e)
     {
@@ -39,14 +31,6 @@ public partial class InstructorView : ContentPage
     {
         Shell.Current.GoToAsync("//EnrollmentDetails");
         //(BindingContext as InstructorViewModel)?.EnrollStudent();
-    }
-    private void AddCourseClicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("//CourseDetails");
-    }
-    private void AddModuleAssignmentClicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("//InstructorModuleAssignment");
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {

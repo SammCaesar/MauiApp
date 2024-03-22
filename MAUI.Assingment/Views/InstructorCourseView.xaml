@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MAUI.Assingment.Views.InstructorView"
-             Title="InstructorView"
+             x:Class="MAUI.Assingment.Views.InstructorCourseView"
+             Title="InstructorCourseView"
              NavigatedTo="ContentPage_NavigatedTo">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to Instructor View!"
+            Text="Instructor Course View"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        
-        
-        <Button Text="Students" Clicked="InstructorStudentViewClicked"></Button>
-        <Button Text="Courses" Clicked="InstructorCourseViewClicked"></Button>
+        <ListView
+            ItemsSource="{Binding Courses}"
+            SelectedItem="{Binding SelectedCourse}">
+        </ListView>
+        <Button Text="Add Course" Clicked="AddCourseClicked"></Button>
+        <Button Text="Add Module/Assignment" Clicked="AddModuleAssignmentClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>

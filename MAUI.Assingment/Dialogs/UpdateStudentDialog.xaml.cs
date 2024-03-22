@@ -12,11 +12,11 @@ public partial class UpdateStudentDialog : ContentPage
     private void UpdateStudentButtonClicked(object sender, EventArgs e)
     {
         (BindingContext as UpdateStudentDialogViewModel)?.UpdateStudent();
-        Shell.Current.GoToAsync("//Instructor");
+        Shell.Current.GoToAsync("//InstructorStudent");
     }
     private void BackButtonClicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync("//Instructor");
+        Shell.Current.GoToAsync("//InstructorStudent");
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {

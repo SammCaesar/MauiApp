@@ -11,7 +11,7 @@ public partial class InstructorModuleAssignmentView : ContentPage
     }
     private void BackButtonClicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync("//Instructor");
+        Shell.Current.GoToAsync("//InstructorCourse");
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {

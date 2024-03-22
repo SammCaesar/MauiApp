@@ -2,16 +2,16 @@ using MAUI.Assingment.ViewModels;
 
 namespace MAUI.Assingment.Dialogs;
 
-public partial class CourseDialog : ContentPage
+public partial class UpdateCourseDialog : ContentPage
 {
-	public CourseDialog()
+	public UpdateCourseDialog()
 	{
 		InitializeComponent();
-        BindingContext = new CourseDialogViewModel();
+        BindingContext = new UpdateCourseDialogViewModel();
     }
-    private void AddCourseButtonClicked(object sender, EventArgs e)
+    private void UpdateCourseButtonClicked(object sender, EventArgs e)
     {
-        (BindingContext as CourseDialogViewModel)?.AddCourse();
+        (BindingContext as UpdateCourseDialogViewModel)?.UpdateCourse();
         Shell.Current.GoToAsync("//InstructorCourse");
     }
     private void BackButtonClicked(object sender, EventArgs e)
@@ -20,6 +20,6 @@ public partial class CourseDialog : ContentPage
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {
-        BindingContext = new CourseDialogViewModel();
+        BindingContext = new UpdateCourseDialogViewModel();
     }
 }

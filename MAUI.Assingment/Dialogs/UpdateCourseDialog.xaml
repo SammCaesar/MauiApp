@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI.Assingment.Dialogs.UpdateCourseDialog"
+             Title="UpdateCourseDialog"
+             NavigatedTo="ContentPage_NavigatedTo">
+    <VerticalStackLayout>
+        <Label 
+            Text="Update Course"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Select Course to Update."
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
+        <ListView
+            ItemsSource="{Binding Courses}"
+            SelectedItem="{Binding SelectedCourse}">
+        </ListView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Code" Grid.Column="0" Grid.Row="0"/>
+            <Entry Text="{Binding Code}" Grid.Column="1" Grid.Row="0"/>
+            <Label Text="Name" Grid.Column="0" Grid.Row="1"/>
+            <Entry Text="{Binding Name}" Grid.Column="1" Grid.Row="1"/>
+            <Label Text="Description" Grid.Column="0" Grid.Row="2"/>
+            <Entry Text="{Binding Description}" Grid.Column="1" Grid.Row="2"/>
+        </Grid>
+        <Button Text="Update Course" Clicked="UpdateCourseButtonClicked"></Button>
+        <Button Text="Cancel" Clicked="BackButtonClicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

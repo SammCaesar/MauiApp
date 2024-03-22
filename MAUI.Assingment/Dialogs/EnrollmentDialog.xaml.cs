@@ -11,7 +11,7 @@ public partial class EnrollmentDialog : ContentPage
     }
     private void BackButtonClicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync("//Instructor");
+        Shell.Current.GoToAsync("//InstructorStudent");
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {
@@ -20,6 +20,6 @@ public partial class EnrollmentDialog : ContentPage
     private void EnrollStudentClicked(object sender, EventArgs e)
     {
         (BindingContext as InstructorViewModel)?.EnrollStudent();
-        Shell.Current.GoToAsync("//Instructor");
+        Shell.Current.GoToAsync("//InstructorStudent");
     }
 }
