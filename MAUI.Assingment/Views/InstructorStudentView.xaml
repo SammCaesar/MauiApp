@@ -17,6 +17,7 @@
         <Button Text="Update Student" Clicked="UpdateStudentClicked"></Button>
         <Button Text="Delete Student" Clicked="DeleteStudentClicked"></Button>
         <Button Text="Enroll Student" Clicked="EnrollStudentClicked"></Button>
+        <Button Text="Drop Student" Clicked="DropStudentClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>

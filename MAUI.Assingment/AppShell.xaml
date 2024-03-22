@@ -50,6 +50,10 @@
         ContentTemplate="{DataTemplate local3:EnrollmentDialog}"
         Route="EnrollmentDetails"/>
     <ShellContent 
+        Title="Drop Details"
+        ContentTemplate="{DataTemplate local3:DropDialog}"
+        Route="DropDetails"/>
+    <ShellContent 
         Title="Mdoule Details"
         ContentTemplate="{DataTemplate local3:ModuleDialog}"
         Route="ModuleDetails"/>

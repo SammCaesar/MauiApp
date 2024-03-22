@@ -38,7 +38,6 @@ namespace MAUI.Assingment.ViewModels
                 student.ID = value; 
             }
         }
-
         public StudentDialogViewModel()
         {
             student = new Student();

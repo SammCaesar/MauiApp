@@ -21,7 +21,6 @@ public partial class InstructorStudentView : ContentPage
     private void UpdateStudentClicked(object sender, EventArgs e)
     {
         Shell.Current.GoToAsync("//UpdateStudentDetails");
-        //(BindingContext as InstructorViewModel)?.AddStudent();
     }
     private void DeleteStudentClicked(object sender, EventArgs e)
     {
@@ -31,6 +30,10 @@ public partial class InstructorStudentView : ContentPage
     {
         Shell.Current.GoToAsync("//EnrollmentDetails");
         //(BindingContext as InstructorViewModel)?.EnrollStudent();
+    } 
+    private void DropStudentClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//DropDetails");
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {
