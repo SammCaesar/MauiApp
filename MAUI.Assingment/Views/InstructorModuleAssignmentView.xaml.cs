@@ -23,6 +23,6 @@ public partial class InstructorModuleAssignmentView : ContentPage
     }
     private void AddAssignmentClicked(object sender, EventArgs e)
     {
-
+        Shell.Current.GoToAsync("//AssignmentDetails");
     }
 }

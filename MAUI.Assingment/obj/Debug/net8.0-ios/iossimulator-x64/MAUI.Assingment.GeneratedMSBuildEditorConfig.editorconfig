@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.AppShell.x
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Dialogs/AssignmentDialog.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.AssignmentDialog.xaml
+build_metadata.AdditionalFiles.TargetPath = Dialogs\AssignmentDialog.xaml
+build_metadata.AdditionalFiles.RelativePath = Dialogs\AssignmentDialog.xaml
+
 [C:/Users/cello/OneDrive/Desktop/MauiApp/MAUI.Assingment/Dialogs/CourseDialog.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Assingment.Dialogs.CourseDialog.xaml

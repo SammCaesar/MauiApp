@@ -30,6 +30,11 @@ namespace Library.Assignment1.Entities
             {
                 result += mod.ToString() + "\n";
             }
+            result += "Assignments:\n";
+            foreach (var ass in Assingments)
+            {
+                result += ass.ToString() + "\n";
+            }
             return result;
         }
     }

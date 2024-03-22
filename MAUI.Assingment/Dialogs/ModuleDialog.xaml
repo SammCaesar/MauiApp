@@ -6,11 +6,11 @@
              NavigatedTo="ContentPage_NavigatedTo">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Add a Module"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Label 
-            Text="Pick which Course you would like to add Module too."
+            Text="Pick which Course you would like to add a Module too."
             VerticalOptions="Start" 
             HorizontalOptions="Start" />
         <ListView

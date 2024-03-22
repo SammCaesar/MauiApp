@@ -38,6 +38,10 @@
         ContentTemplate="{DataTemplate local3:ModuleDialog}"
         Route="ModuleDetails"/>
     <ShellContent 
+        Title="Assignment Details"
+        ContentTemplate="{DataTemplate local3:AssignmentDialog}"
+        Route="AssignmentDetails"/>
+    <ShellContent 
         Title="Student"
         ContentTemplate="{DataTemplate local2:StudentView}"
         Route="Student"/>    

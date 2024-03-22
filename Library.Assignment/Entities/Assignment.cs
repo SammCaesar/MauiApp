@@ -10,6 +10,10 @@ namespace Library.Assignment1.Entities
         public Assignment()
 		{
 		}
-	}
+        public override string ToString()
+        {
+            return $"{Name}\nDescription: {Description}\nTotal Available Points: {TotalAvailablePoints}\nDue Date: {DueDate}\n";
+        }
+    }
 }
 
