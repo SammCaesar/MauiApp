@@ -81,7 +81,7 @@ namespace MAUI.Assingment.ViewModels
             personSvc.Add(myStudent);
             NotifyPropertyChanged("Students");
         }
-        public void RemoveStudent()
+        public void DeleteStudent()
         {
             personSvc.Remove(SelectedPerson);
             RefreshView();

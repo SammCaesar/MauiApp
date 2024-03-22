@@ -23,9 +23,9 @@ public partial class InstructorStudentView : ContentPage
         Shell.Current.GoToAsync("//UpdateStudentDetails");
         //(BindingContext as InstructorViewModel)?.AddStudent();
     }
-    private void RemoveStudentClicked(object sender, EventArgs e)
+    private void DeleteStudentClicked(object sender, EventArgs e)
     {
-        (BindingContext as InstructorViewModel)?.RemoveStudent();
+        (BindingContext as InstructorViewModel)?.DeleteStudent();
     }
     private void EnrollStudentClicked(object sender, EventArgs e)
     {

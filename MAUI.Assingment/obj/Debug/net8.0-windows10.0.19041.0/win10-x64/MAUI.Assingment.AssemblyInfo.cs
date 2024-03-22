@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAUI.Assingment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+55e076377864e292fda70cdd6287df8834f4d3ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+24a0a67d54574bf2bbc0848bab8192743e11c18c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAUI.Assingment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAUI.Assingment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
