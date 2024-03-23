@@ -15,6 +15,7 @@ namespace MAUI.Assingment.ViewModels
     {
         private PersonService personSvc;
         private CourseService courseSvc;
+        public string Query { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -55,7 +56,8 @@ namespace MAUI.Assingment.ViewModels
         {
             get
             {
-                return new ObservableCollection<Student>(personSvc.Students);
+                return new ObservableCollection<Student>(personSvc.Students
+                    .ToList().Where(c => c?.Name?.ToUpper().Contains(Query?.ToUpper() ?? string.Empty) ?? false));
             }
         }
         public Person SelectedPerson
@@ -74,6 +76,7 @@ namespace MAUI.Assingment.ViewModels
         public void RefreshView()
         {
             NotifyPropertyChanged(nameof(Persons));
+            NotifyPropertyChanged(nameof(Students));
             NotifyPropertyChanged(nameof(Courses));
             NotifyPropertyChanged(nameof(DetailedCourses));
         }

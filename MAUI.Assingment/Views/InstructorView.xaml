@@ -9,8 +9,17 @@
             Text="Welcome to Instructor View!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        
-        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Entry Text="{Binding Query}" Grid.Column="0"/>
+            <Button Text="Search" Clicked="SearchClick" Grid.Column="1"/>
+        </Grid>
+        <ListView
+            ItemsSource="{Binding Students}">
+        </ListView>
         <Button Text="Students" Clicked="InstructorStudentViewClicked"></Button>
         <Button Text="Courses" Clicked="InstructorCourseViewClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>

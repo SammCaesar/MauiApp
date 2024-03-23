@@ -48,18 +48,34 @@ namespace Library.Assignment1.Services
         private PersonService()
         {
             persons = new List<Person>();
-            var mills = new Instructor()
+            var sam = new Student()
             {
-                Name = "Chris Mills",
-                Classification = "Teacher",
+                Name = "Samuel Iturra",
+                Classification = "Student",
+                Grade = "Senior",
             };
-            var sharanya = new Instructor()
+            var Deac = new Student()
             {
-                Name = "Sharanya Jayaraman",
-                Classification = "Teacher",
+                Name = "Deacon Palmer",
+                Classification = "Student",
+                Grade = "Junior",
             };
-            Add(mills);
-            Add(sharanya);
+            var Jane = new Student()
+            {
+                Name = "Jane Doe",
+                Classification = "Student",
+                Grade = "Sophmore",
+            };
+            var Doug = new Student()
+            {
+                Name = "Doug Heffernan",
+                Classification = "Student",
+                Grade = "Freshman",
+            };
+            Add(sam);
+            Add(Deac);
+            Add(Jane);
+            Add(Doug);
         }
 
         public IEnumerable<Person> Search(string query)
