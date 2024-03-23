@@ -75,6 +75,7 @@ namespace MAUI.Assingment.ViewModels
         {
             NotifyPropertyChanged(nameof(Persons));
             NotifyPropertyChanged(nameof(Courses));
+            NotifyPropertyChanged(nameof(DetailedCourses));
         }
         public void AddStudent()
         {

@@ -17,6 +17,10 @@ public partial class InstructorCourseView : ContentPage
     {
         Shell.Current.GoToAsync("//CourseDetails");
     }
+    private void UpdateCourseClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//UpdateCourseDetails");
+    }
     private void AddModuleAssignmentClicked(object sender, EventArgs e)
     {
         Shell.Current.GoToAsync("//InstructorModuleAssignment");

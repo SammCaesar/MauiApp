@@ -13,6 +13,7 @@
             ItemsSource="{Binding DetailedCourses}">
         </ListView>
         <Button Text="Add Course" Clicked="AddCourseClicked"></Button>
+        <Button Text="Update Course" Clicked="UpdateCourseClicked"></Button>
         <Button Text="Add Module/Assignment" Clicked="AddModuleAssignmentClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
