@@ -8,8 +8,30 @@
             Text="Welcome to Student View!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-
-        
+        <Label 
+            Text="Select which student you are."
+            VerticalOptions="Start" 
+            HorizontalOptions="Start"/>
+        <ListView
+            ItemsSource="{Binding Students}"
+            SelectedItem="{Binding SelectedStudent}">
+        </ListView>
+        <ListView
+            ItemsSource="{Binding Courses}"
+            SelectedItem="{Binding SelectedCourse}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Code}"/>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Description}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="See Courses" Clicked="SeeCoursesClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>
