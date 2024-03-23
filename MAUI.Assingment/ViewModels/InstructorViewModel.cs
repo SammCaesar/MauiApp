@@ -30,6 +30,13 @@ namespace MAUI.Assingment.ViewModels
                 return new ObservableCollection<Course>(courseSvc.Courses);
             }
         }
+        public ObservableCollection<string> DetailedCourses
+        {
+            get
+            {
+                return new ObservableCollection<string>(courseSvc.DetailedCourses);
+            }
+        }
         public ObservableCollection<Person> Persons
         {
             get

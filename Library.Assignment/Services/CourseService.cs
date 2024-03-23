@@ -30,7 +30,13 @@ namespace Library.Assignment1.Services
 				return courses ?? new List<Course>();
 			}
 		}
-
+		public IEnumerable<string> DetailedCourses
+		{
+			get
+			{
+				return courses.Select(x => x.DetailedView()).ToList() ?? new List<string>();
+			}
+		}
 		private CourseService()
 		{
 			courses = new List<Course>();

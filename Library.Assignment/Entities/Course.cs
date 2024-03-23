@@ -14,11 +14,11 @@ namespace Library.Assignment1.Entities
 		{
 		}
 
-        //public override string ToString()
-        //{
-        //    return $"{Code} | {Name} \nDescription: {Description}";
-        //}
         public override string ToString()
+        {
+            return $"{Code} | {Name} \nDescription: {Description}";
+        }
+        public string DetailedView()
         {
             string result = $"{Code} | {Name} \nDescription: {Description}\nStudents:\n";
             foreach (var stud in Roster)

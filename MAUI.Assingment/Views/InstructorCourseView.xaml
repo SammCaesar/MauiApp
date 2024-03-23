@@ -10,8 +10,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <ListView
-            ItemsSource="{Binding Courses}"
-            SelectedItem="{Binding SelectedCourse}">
+            ItemsSource="{Binding DetailedCourses}">
         </ListView>
         <Button Text="Add Course" Clicked="AddCourseClicked"></Button>
         <Button Text="Add Module/Assignment" Clicked="AddModuleAssignmentClicked"></Button>
