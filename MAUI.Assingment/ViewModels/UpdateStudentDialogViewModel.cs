@@ -50,7 +50,7 @@ namespace MAUI.Assingment.ViewModels
                 return new ObservableCollection<Person>(personSvc.Persons);
             }
         }
-        public Person SelectedPerson
+        public Student SelectedPerson
         {
             get; set;
         }
@@ -64,7 +64,7 @@ namespace MAUI.Assingment.ViewModels
             if (student != null)
             {
                 SelectedPerson.Name = student.Name;
-                SelectedPerson.Classification = student.Classification;
+                SelectedPerson.Grade = student.Grade;
             }
         }
     }
