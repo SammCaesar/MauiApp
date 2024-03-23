@@ -16,6 +16,17 @@
         <ListView
             ItemsSource="{Binding Courses}"
             SelectedItem="{Binding SelectedCourse}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Code}"/>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Description}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
         <Grid>
             <Grid.RowDefinitions>

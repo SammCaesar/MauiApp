@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Library.Assignment1.Entities;
 using Library.Assignment1.Services;
-using static Android.Graphics.ImageDecoder;
 
 namespace MAUI.Assingment.ViewModels
 {
@@ -16,6 +15,7 @@ namespace MAUI.Assingment.ViewModels
     {
         private PersonService personSvc;
         private CourseService courseSvc;
+        private Course? course;
         public string Query { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -100,6 +100,7 @@ namespace MAUI.Assingment.ViewModels
         {
             personSvc = PersonService.Current;
             courseSvc = CourseService.Current;
+            course = new Course();
         }
         public void RefreshView()
         {
