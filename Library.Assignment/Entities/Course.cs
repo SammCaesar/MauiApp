@@ -14,10 +14,30 @@ namespace Library.Assignment1.Entities
 		{
 		}
 
+        //public override string ToString()
+        //{
+        //    return $"{Code} | {Name} \nDescription: {Description}";
+        //}
         public override string ToString()
         {
-            return $"{Code} | {Name} \nDescription: {Description}";
+            string result = $"{Code} | {Name} \nDescription: {Description}\nStudents:\n";
+            foreach (var stud in Roster)
+            {
+                result += stud.ToString() + "\n";
+            }
+            result += "Modules:\n";
+            foreach (var mod in Modules)
+            {
+                result += mod.ToString() + "\n";
+            }
+            result += "Assignments:\n";
+            foreach (var ass in Assingments)
+            {
+                result += ass.ToString() + "\n";
+            }
+            return result;
         }
+        [Obsolete]
         public string DetailedView()
         {
             string result = $"{Code} | {Name} \nDescription: {Description}\nStudents:\n";

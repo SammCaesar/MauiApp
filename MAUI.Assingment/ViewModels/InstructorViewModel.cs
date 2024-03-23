@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Library.Assignment1.Entities;
 using Library.Assignment1.Services;
+using static Android.Graphics.ImageDecoder;
 
 namespace MAUI.Assingment.ViewModels
 {
@@ -23,7 +24,33 @@ namespace MAUI.Assingment.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
+        public string Code
+        {
+            get { return course?.Code ?? string.Empty; }
+            set
+            {
+                if (course == null) course = new Course();
+                course.Code = value;
+            }
+        }
+        public string Name
+        {
+            get { return course?.Name ?? string.Empty; }
+            set
+            {
+                if (course == null) course = new Course();
+                course.Name = value;
+            }
+        }
+        public string Description
+        {
+            get { return course?.Description ?? string.Empty; }
+            set
+            {
+                if (course == null) course = new Course();
+                course.Description = value;
+            }
+        }
         public ObservableCollection<Course> Courses
         {
             get
@@ -31,6 +58,7 @@ namespace MAUI.Assingment.ViewModels
                 return new ObservableCollection<Course>(courseSvc.Courses);
             }
         }
+        [Obsolete]
         public ObservableCollection<string> DetailedCourses
         {
             get

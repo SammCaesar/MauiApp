@@ -10,7 +10,18 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <ListView
-            ItemsSource="{Binding DetailedCourses}">
+            ItemsSource="{Binding Courses}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Code}"/>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Description}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
         <Button Text="Add Course" Clicked="AddCourseClicked"></Button>
         <Button Text="Update Course" Clicked="UpdateCourseClicked"></Button>
