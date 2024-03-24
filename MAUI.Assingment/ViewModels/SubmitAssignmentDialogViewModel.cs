@@ -17,31 +17,14 @@ namespace MAUI.Assingment.ViewModels
         private CourseService courseSvc;
         private Course? course;
         private Student? student;
-        public string Code
+        private AssignmentSubmission submission;
+        public string Answer
         {
-            get { return course?.Code ?? string.Empty; }
+            get { return submission?.Answer ?? string.Empty; }
             set
             {
-                if (course == null) course = new Course();
-                course.Code = value;
-            }
-        }
-        public string Name
-        {
-            get { return course?.Name ?? string.Empty; }
-            set
-            {
-                if (course == null) course = new Course();
-                course.Name = value;
-            }
-        }
-        public string Description
-        {
-            get { return course?.Description ?? string.Empty; }
-            set
-            {
-                if (course == null) course = new Course();
-                course.Description = value;
+                if (submission == null) submission = new AssignmentSubmission();
+                submission.Answer = value;
             }
         }
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -50,26 +33,24 @@ namespace MAUI.Assingment.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        public ObservableCollection<Course> Courses
+        public Assignment AssignmentSelected
+        {
+            get;
+            set;
+        }
+        public ObservableCollection<Assignment> Assignments
         {
             get
             {
                 if (student != null && course != null)
                 {
-                    return new ObservableCollection<Course>(courseSvc.Courses
-                    .ToList().Where(c => c?.Roster?.Contains(student) ?? false));
+                    return new ObservableCollection<Assignment>(course.Assingments);
+
                 }
                 else
                 {
-                    return new ObservableCollection<Course> ();
+                    return new ObservableCollection<Assignment> ();
                 }
-            }
-        }
-        public ObservableCollection<Student> Students
-        {
-            get
-            {
-                return new ObservableCollection<Student>(personSvc.Students);
             }
         }
         public Student GetSelectedStudentFromService()
@@ -85,18 +66,25 @@ namespace MAUI.Assingment.ViewModels
             personSvc = PersonService.Current;
             courseSvc = CourseService.Current;
             course = GetSelectedCourseFromService();
+            student = GetSelectedStudentFromService();
         }
         public void RefreshView()
         {
             student = GetSelectedStudentFromService(); 
             course = GetSelectedCourseFromService();
-            NotifyPropertyChanged(nameof(Students));
             NotifyPropertyChanged(nameof(student));
-            NotifyPropertyChanged(nameof(Courses));
+            NotifyPropertyChanged(nameof(course));
+            NotifyPropertyChanged(nameof(Assignments));
         }
         public void SubmitAssignment()
         {
-
+            if (AssignmentSelected != null)
+            {
+                submission.Assignment = AssignmentSelected;
+                submission.Student = student;
+                AssignmentSelected.Submissions.Add(submission);
+                RefreshView();
+            }
         }
     }
 }

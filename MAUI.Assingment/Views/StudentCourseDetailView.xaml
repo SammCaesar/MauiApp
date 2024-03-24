@@ -9,6 +9,10 @@
             Text="Detailed Courses"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Label 
+            Text="Select Course to Submit an Assignment too."
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
         <ListView
             ItemsSource="{Binding Courses}"
             SelectedItem="{Binding SelectedCourse}">

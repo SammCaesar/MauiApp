@@ -14,8 +14,8 @@
             VerticalOptions="Start" 
             HorizontalOptions="Start" />
         <ListView
-            ItemsSource="{Binding Courses}"
-            SelectedItem="{Binding CourseSelected}">
+            ItemsSource="{Binding Assignments}"
+            SelectedItem="{Binding AssignmentSelected}">
         </ListView>
         <Grid>
             <Grid.RowDefinitions>

@@ -47,6 +47,22 @@ namespace Library.Assignment1.Services
 				Name = "C# FullStack Development",
 				Description = "Chris Mills teaches C# and MAUI FullStack Development.",
 			};
+			var ass = new Assignment
+			{
+				Name = "Assignment 1",
+				TotalAvailablePoints = 100,
+				DueDate = DateTime.Now.AddDays(2),
+				Description = "Make a C# Console Application."
+			};
+			var ass2 = new Assignment
+			{
+				Name = "MAUI APP",
+				TotalAvailablePoints = 100,
+				DueDate = DateTime.Now.AddDays(2),
+				Description = "Make a MAUI Application."
+			};
+			mills.Assingments.Add(ass);
+			mills.Assingments.Add(ass2);
 			courses.Add(mills);
 			//var sharanya = new Course()
 			//{

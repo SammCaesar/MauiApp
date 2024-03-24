@@ -15,7 +15,7 @@ public partial class SubmitAssignmentDialog : ContentPage
     }
     private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
     {
-        BindingContext = new UpdateCourseDialogViewModel();
+        BindingContext = new SubmitAssignmentDialogViewModel();
     }
     private void SubmitButtonClicked(object sender, EventArgs e)
     {
