@@ -12,13 +12,15 @@ namespace Library.Assignment1.Entities
         public Student Student { get; set; }
         public DateTime DateTurnedIn { get; set; }
         public string Answer { get; set; }
+        public int? Grade { get; set; }
         public AssignmentSubmission() 
         {
             DateTurnedIn = DateTime.Today;
+            Grade = null;
         }
         public override string ToString()
         {
-            return $"{DateTurnedIn} | {Student.Name} : {Answer}";
+            return $"{DateTurnedIn} | {Student.Name} : {Answer} | Grade: {Grade}";
         }
     }
 }

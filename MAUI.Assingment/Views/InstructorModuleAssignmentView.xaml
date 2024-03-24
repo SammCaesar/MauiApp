@@ -11,6 +11,7 @@
             HorizontalOptions="Center" />
         <Button Text="Add Module" Clicked="AddModuleClicked"></Button>
         <Button Text="Add Assignment" Clicked="AddAssignmentClicked"></Button>
+        <Button Text="Grade Submission" Clicked="GradeSubmissionClicked"></Button>
         <Button Text="Cancel" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>

@@ -25,4 +25,8 @@ public partial class InstructorModuleAssignmentView : ContentPage
     {
         Shell.Current.GoToAsync("//AssignmentDetails");
     }
+    private void GradeSubmissionClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//GradeSubmission");
+    }
 }

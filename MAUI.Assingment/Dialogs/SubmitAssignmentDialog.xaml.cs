@@ -20,5 +20,6 @@ public partial class SubmitAssignmentDialog : ContentPage
     private void SubmitButtonClicked(object sender, EventArgs e)
     {
         (BindingContext as SubmitAssignmentDialogViewModel)?.SubmitAssignment();
+        Shell.Current.GoToAsync("//StudentCourse");
     }
 }
