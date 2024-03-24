@@ -109,6 +109,7 @@ namespace MAUI.Assingment.ViewModels
             NotifyPropertyChanged(nameof(Courses));
             NotifyPropertyChanged(nameof(DetailedCourses));
         }
+        [Obsolete]
         public void AddStudent()
         {
             Student myStudent = new Student()
@@ -128,7 +129,7 @@ namespace MAUI.Assingment.ViewModels
         }
         public void EnrollStudent()
         {
-            if (SelectedPerson is Student)
+            if (SelectedPerson is Student && SelectedCourse.Roster.Contains(SelectedPerson) == false)
             {
                 SelectedCourse.Roster.Add(SelectedPerson);
                 RefreshView();

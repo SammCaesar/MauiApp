@@ -17,4 +17,8 @@ public partial class StudentCourseDetailView : ContentPage
     {
         Shell.Current.GoToAsync("//SubmitAssignment");
     }
+    private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
+    {
+        (BindingContext as StudentCourseViewModel)?.RefreshView();
+    }
 }

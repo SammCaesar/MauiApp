@@ -114,6 +114,7 @@ namespace MAUI.Assingment.ViewModels
         }
         public void RefreshView()
         {
+            NotifyPropertyChanged(nameof(_selectedStudent));
             NotifyPropertyChanged(nameof(Students));
             NotifyPropertyChanged(nameof(Persons));
             NotifyPropertyChanged(nameof(Courses));
