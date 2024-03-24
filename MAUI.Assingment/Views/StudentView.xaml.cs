@@ -17,4 +17,8 @@ public partial class StudentView : ContentPage
     {
         (BindingContext as StudentViewModel)?.RefreshView();
     }
+    private void SeeDetailedCoursesClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("//StudentCourse");
+    }
 }

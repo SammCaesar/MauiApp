@@ -64,6 +64,14 @@
     <ShellContent 
         Title="Student"
         ContentTemplate="{DataTemplate local2:StudentView}"
-        Route="Student"/>    
+        Route="Student"/>
+    <ShellContent 
+        Title="Student Course"
+        ContentTemplate="{DataTemplate local2:StudentCourseDetailView}"
+        Route="StudentCourse"/> 
+    <ShellContent 
+        Title="Submit Assignment"
+        ContentTemplate="{DataTemplate local3:SubmitAssignmentDialog}"
+        Route="SubmitAssignment"/>    
 
 </Shell>

@@ -32,6 +32,7 @@
             </ListView.ItemTemplate>
         </ListView>
         <Button Text="See Courses" Clicked="SeeCoursesClicked"></Button>
+        <Button Text="Detailed View" Clicked="SeeDetailedCoursesClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>

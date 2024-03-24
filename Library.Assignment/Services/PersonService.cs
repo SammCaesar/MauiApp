@@ -5,7 +5,7 @@ namespace Library.Assignment1.Services
 	public class PersonService
 	{
         private IList<Person> persons;
-
+        public Student SelectedStudent { get; set; }
         private static object _lock = new object();
         private static PersonService? instance;
         public static PersonService Current

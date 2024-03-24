@@ -24,6 +24,9 @@
     <MauiXaml Update="Dialogs\StudentDialog.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Dialogs\SubmitAssignmentDialog.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Dialogs\UpdateCourseDialog.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -40,6 +43,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\InstructorView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\StudentCourseDetailView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\StudentView.xaml">

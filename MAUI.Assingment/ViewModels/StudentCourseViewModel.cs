@@ -1,5 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using Library.Assignment1.Entities;
+using Library.Assignment1.Services;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -7,16 +8,15 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using Library.Assignment1.Entities;
-using Library.Assignment1.Services;
 
 namespace MAUI.Assingment.ViewModels
 {
-    public class StudentViewModel : INotifyPropertyChanged
+    public class StudentCourseViewModel : INotifyPropertyChanged
     {
         private PersonService personSvc;
         private CourseService courseSvc;
         private Course? course;
+        private Student? student;
         public string Code
         {
             get { return course?.Code ?? string.Empty; }
@@ -54,10 +54,10 @@ namespace MAUI.Assingment.ViewModels
         {
             get
             {
-                if (SelectedStudent != null)
+                if (student != null)
                 {
                     return new ObservableCollection<Course>(courseSvc.Courses
-                    .ToList().Where(c => c?.Roster?.Contains(SelectedStudent) ?? false));
+                    .ToList().Where(c => c?.Roster?.Contains(student) ?? false));
                 }
                 else
                 {
@@ -83,34 +83,15 @@ namespace MAUI.Assingment.ViewModels
         {
             return personSvc.SelectedStudent;
         }
-        public void SetSelectedStudentFromService(Student student)
-        {
-            personSvc.SelectedStudent = student;
-        }
-        private Student _selectedStudent;
-        public Student SelectedStudent
-        {
-            get
-            {
-                return _selectedStudent;
-            }
-            set
-            {
-                if (value != null)
-                {
-                    _selectedStudent = value;
-                    SetSelectedStudentFromService(_selectedStudent);
-                }
-            }
-        }
         public Course SelectedCourse
         {
             get; set;
         }
-        public StudentViewModel()
+        public StudentCourseViewModel()
         {
             personSvc = PersonService.Current;
             courseSvc = CourseService.Current;
+            student = GetSelectedStudentFromService();
         }
         public void RefreshView()
         {
