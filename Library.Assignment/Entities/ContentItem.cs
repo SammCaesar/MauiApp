@@ -11,7 +11,7 @@ namespace Library.Assignment1.Entities
 		}
         public override string ToString()
         {
-            return $"Content: {Name}\nDescription: {Description}\n";
+            return $"Content: {Name} Description: {Description}";
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Library.Assignment1.Entities
         //}
         public override string ToString()
         {
-            string result = $"{Code} | {Name} \nDescription: {Description}\nStudents:\n";
+            string result = $"{Code} | {Name} Description: {Description}\nStudents:\n";
             foreach (var stud in Roster)
             {
                 result += stud.ToString() + "\n";

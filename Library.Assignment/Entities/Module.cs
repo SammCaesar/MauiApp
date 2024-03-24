@@ -11,7 +11,7 @@ namespace Library.Assignment1.Entities
 		}
         public override string ToString()
         {
-            string result = $"Module: {Name}\nDescription: {Description}\n";
+            string result = $"Module: {Name} Description: {Description}\n";
             foreach (var item in Content)
             {
                 result += item.ToString() + "\n";

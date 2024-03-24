@@ -2,12 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI.Assingment.Dialogs.SubmitAssignmentDialog"
-             Title="SubmitAssignmentDialog">
+             Title="SubmitAssignmentDialog"
+             NavigatedTo="ContentPage_NavigatedTo">
     <VerticalStackLayout>
         <Label 
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Label 
+            Text="Select Assignment to Submit."
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
+        <ListView
+            ItemsSource="{Binding Courses}"
+            SelectedItem="{Binding CourseSelected}">
+        </ListView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Answer" Grid.Column="0" Grid.Row="0"/>
+            <Entry Text="{Binding Answer}" Grid.Column="1" Grid.Row="0"/>
+         </Grid>
+        <Button Text="Submit" Clicked="SubmitButtonClicked"></Button>
         <Button Text="Back" Clicked="BackButtonClicked"></Button>
     </VerticalStackLayout>
 </ContentPage>

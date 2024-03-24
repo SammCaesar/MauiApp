@@ -5,7 +5,7 @@ namespace Library.Assignment1.Services
 	public class CourseService
 	{
 		private IList<Course> courses;
-
+		public Course SelectedCourse { get; set; }
 		private static object _lock = new object();
 		private static CourseService? instance;
 		public static CourseService Current
@@ -30,6 +30,7 @@ namespace Library.Assignment1.Services
 				return courses ?? new List<Course>();
 			}
 		}
+		[Obsolete]
 		public IEnumerable<string> DetailedCourses
 		{
 			get
@@ -46,14 +47,14 @@ namespace Library.Assignment1.Services
 				Name = "C# FullStack Development",
 				Description = "Chris Mills teaches C# and MAUI FullStack Development.",
 			};
-			var sharanya = new Course()
-			{
-				Code = "202",
-				Name = "Parallel Programming",
-				Description = "Sharanya Jayaraman teaches Parallel Programming in Python",
-			};
 			courses.Add(mills);
-			courses.Add(sharanya);
+			//var sharanya = new Course()
+			//{
+			//	Code = "202",
+			//	Name = "Parallel Programming",
+			//	Description = "Sharanya Jayaraman teaches Parallel Programming in Python",
+			//};
+			//courses.Add(sharanya);
 		}
 
         public Course? GetByID(int Id)

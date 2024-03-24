@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace MAUI.Assingment.ViewModels
 {
-    public class StudentCourseViewModel : INotifyPropertyChanged
+    public class SubmitAssignmentDialogViewModel : INotifyPropertyChanged
     {
         private PersonService personSvc;
         private CourseService courseSvc;
@@ -54,22 +54,15 @@ namespace MAUI.Assingment.ViewModels
         {
             get
             {
-                if (student != null)
+                if (student != null && course != null)
                 {
                     return new ObservableCollection<Course>(courseSvc.Courses
                     .ToList().Where(c => c?.Roster?.Contains(student) ?? false));
                 }
                 else
                 {
-                    return new ObservableCollection<Course>();
+                    return new ObservableCollection<Course> ();
                 }
-            }
-        }
-        public ObservableCollection<Person> Persons
-        {
-            get
-            {
-                return new ObservableCollection<Person>(personSvc.Persons);
             }
         }
         public ObservableCollection<Student> Students
@@ -87,39 +80,23 @@ namespace MAUI.Assingment.ViewModels
         {
             return courseSvc.SelectedCourse;
         }
-        public void SetSelectedCourseFromService(Course course)
-        {
-            courseSvc.SelectedCourse = course;
-        }
-        private Course _selectedCourse;
-        public Course SelectedCourse
-        {
-            get
-            {
-                return _selectedCourse;
-            }
-            set
-            {
-                if (value != null)
-                {
-                    _selectedCourse = value;
-                    SetSelectedCourseFromService(_selectedCourse);
-                }
-            }
-        }
-        public StudentCourseViewModel()
+        public SubmitAssignmentDialogViewModel()
         {
             personSvc = PersonService.Current;
             courseSvc = CourseService.Current;
-            student = GetSelectedStudentFromService();
+            course = GetSelectedCourseFromService();
         }
         public void RefreshView()
         {
-            student = GetSelectedStudentFromService();
+            student = GetSelectedStudentFromService(); 
+            course = GetSelectedCourseFromService();
             NotifyPropertyChanged(nameof(Students));
             NotifyPropertyChanged(nameof(student));
-            NotifyPropertyChanged(nameof(Persons));
             NotifyPropertyChanged(nameof(Courses));
+        }
+        public void SubmitAssignment()
+        {
+
         }
     }
 }
